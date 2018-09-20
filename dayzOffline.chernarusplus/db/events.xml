@@ -196,7 +196,7 @@
     <event name="InfectedArmy">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
+        <min>75</min>
         <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -218,7 +218,7 @@
     <event name="InfectedCity">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
+        <min>75</min>
         <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -255,8 +255,8 @@
     <event name="InfectedFirefighter">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <min>75</min>
+        <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -273,8 +273,8 @@
     <event name="InfectedMedic">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <min>75</min>
+        <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -298,8 +298,8 @@
     <event name="InfectedPolice">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <min>75</min>
+        <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -317,8 +317,8 @@
     <event name="InfectedPrisoner">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <min>75</min>
+        <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -335,8 +335,8 @@
     <event name="InfectedSolitude">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
+        <min>75</min>
+        <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -371,7 +371,7 @@
     <event name="InfectedVillage">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>50</min>
+        <min>75</min>
         <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -452,8 +452,8 @@
     <event name="StaticHeliCrash">
         <waves>0</waves>
         <nominal>3</nominal>
-        <min>3</min>
-        <max>6</max>
+        <min>5</min>
+        <max>8</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -506,7 +506,7 @@
         <waves>0</waves>
         <nominal>140</nominal>
         <min>2</min>
-        <max>4</max>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>25</saferadius>
@@ -583,7 +583,7 @@
         <waves>0</waves>
         <nominal>140</nominal>
         <min>2</min>
-        <max>4</max>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>25</saferadius>
