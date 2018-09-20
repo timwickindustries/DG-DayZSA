@@ -64,9 +64,9 @@ class CustomMission: MissionServer
 
 	EntityAI sniperClass(PlayerBase player)
 	{
-		EntityAI gun = player.GetHumanInventory().CreateInHands("SVD");
+		EntityAI gun = player.GetHumanInventory().CreateInHands("AKM");
 		gun.GetInventory().CreateAttachment("PSO1Optic");
-		addMags(player, "Mag_SVD_10Rnd", 3);
+		addMags(player, "Mag_AKM_30Rnd", 3);
 
 		return gun;
 	}
@@ -75,6 +75,7 @@ class CustomMission: MissionServer
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("UMP45");
 		gun.GetInventory().CreateAttachment("PistolSuppressor");
+		gun.GetInventory().CreateAttachment("ACOGOptic");
 		addMags(player, "Mag_UMP_25Rnd", 3);
 
 		return gun;
@@ -84,10 +85,10 @@ class CustomMission: MissionServer
 	{
 		player.RemoveAllItems();
 
-		player.GetInventory().CreateInInventory("TTSKOPants");
-		player.GetInventory().CreateInInventory("TTsKOJacket_Camo");
+		player.GetInventory().CreateInInventory("USMCPants_Woodland");
+		player.GetInventory().CreateInInventory("USMCJacket_Woodland");
 		player.GetInventory().CreateInInventory("CombatBoots_Black");
-		player.GetInventory().CreateInInventory("ImprovisedBag");
+		player.GetInventory().CreateInInventory("AssaultBag_Ttsko");
 
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("SpaghettiCan");
