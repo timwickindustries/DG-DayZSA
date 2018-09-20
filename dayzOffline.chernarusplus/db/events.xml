@@ -653,7 +653,7 @@
         <waves>0</waves>
         <nominal>8</nominal>
         <min>4</min>
-        <max>8</max>
+        <max>15</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -662,14 +662,14 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <event name="VehicleOffroadHatchback">
         <waves>0</waves>
         <nominal>6</nominal>
         <min>3</min>
-        <max>6</max>
+        <max>10</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -678,7 +678,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <event name="VehicleTransitBus">
@@ -694,7 +694,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <event name="VehicleV3SCargo">
@@ -710,7 +710,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <event name="VehicleV3SChassis">
@@ -726,7 +726,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
 </events>
