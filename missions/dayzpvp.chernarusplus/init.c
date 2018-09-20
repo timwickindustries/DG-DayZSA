@@ -66,6 +66,8 @@ class CustomMission: MissionServer
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("AKM");
 		gun.GetInventory().CreateAttachment("PSO1Optic");
+		gun.GetInventory().CreateAttachment("AK_WoodBttstck");
+		gun.GetInventory().CreateAttachment("AK_WoodHndgrd");
 		addMags(player, "Mag_AKM_30Rnd", 3);
 
 		return gun;
