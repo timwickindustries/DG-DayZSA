@@ -78,7 +78,7 @@ class CustomMission: MissionServer
 		EntityAI gun = player.GetHumanInventory().CreateInHands("UMP45");
 		gun.GetInventory().CreateAttachment("PistolSuppressor");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
-		addMags(player, "Mag_UMP_25Rnd", 7);
+		addMags(player, "Mag_UMP_25Rnd", 10);
 
 		return gun;
 	}
@@ -153,9 +153,12 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("SpaghettiCan");
 		player.GetInventory().CreateInInventory("HuntingKnife");
-		player.GetInventory().CreateInInventory("Medical_TransfusionKit");
-		ItemBase bandages = player.GetInventory().CreateInInventory("BandageDressing");
-		bandages.SetQuantity(4);
+		player.GetInventory().CreateInInventory("SalineBag");
+		player.GetInventory().CreateInInventory("StartKitIV");
+		player.GetInventory().CreateInInventory("BandageDressing");
+		player.GetInventory().CreateInInventory("BandageDressing");
+		player.GetInventory().CreateInInventory("BandageDressing");
+		player.GetInventory().CreateInInventory("Morphine");
 
 		EntityAI primary;
 		EntityAI axe = player.GetInventory().CreateInInventory("FirefighterAxe");
@@ -169,7 +172,6 @@ class CustomMission: MissionServer
 		player.LocalTakeEntityToHands(primary);
 		player.SetQuickBarEntityShortcut(primary, 0, true);
 		player.SetQuickBarEntityShortcut(axe, 1, true);
-		player.SetQuickBarEntityShortcut(bandages, 3, true);
 	}
 };
 
