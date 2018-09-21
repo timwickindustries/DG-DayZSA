@@ -96,7 +96,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("SpaghettiCan");
 		player.GetInventory().CreateInInventory("HuntingKnife");
-		player.GetInventory().CreateInInventory("Medical_TransfusionKit");
+		ItemBase salineiv = player.GetInventory().CreateInInventory("Medical_TransfusionKit");
+		bandages.SetQuantity(1);
 		ItemBase bandages = player.GetInventory().CreateInInventory("BandageDressing");
 		bandages.SetQuantity(4);
 
@@ -110,9 +111,10 @@ class CustomMission: MissionServer
 		}
 
 		player.LocalTakeEntityToHands(primary);
-		player.SetQuickBarEntityShortcut(primary, 0, true);
+		player.SetQuickBarEntityShortcut(primary, 1, true);
 		player.SetQuickBarEntityShortcut(axe, 3, true);
 		player.SetQuickBarEntityShortcut(bandages, 4, true);
+		player.SetQuickBarEntityShortcut(salineiv, 5, true);
 	}
 };
 
