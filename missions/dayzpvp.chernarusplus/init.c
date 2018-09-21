@@ -97,7 +97,7 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("SpaghettiCan");
 		player.GetInventory().CreateInInventory("HuntingKnife");
 		ItemBase salineiv = player.GetInventory().CreateInInventory("Medical_TransfusionKit");
-		bandages.SetQuantity(1);
+		salineiv.SetQuantity(1);
 		ItemBase bandages = player.GetInventory().CreateInInventory("BandageDressing");
 		bandages.SetQuantity(4);
 
