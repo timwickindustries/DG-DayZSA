@@ -3,8 +3,8 @@
     <spawn_params>
         <min_dist_zombie>0</min_dist_zombie>
         <max_dist_zombie>20</max_dist_zombie>
-        <min_dist_player>2</min_dist_player>
-        <max_dist_player>15</max_dist_player>
+        <min_dist_player>5</min_dist_player>
+        <max_dist_player>30</max_dist_player>
         <min_dist_static>0</min_dist_static>
         <max_dist_static>2</max_dist_static>
     </spawn_params>
