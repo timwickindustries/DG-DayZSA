@@ -111,8 +111,8 @@ class CustomMission: MissionServer
 
 		player.LocalTakeEntityToHands(primary);
 		player.SetQuickBarEntityShortcut(primary, 0, true);
-		player.SetQuickBarEntityShortcut(rags, 2, true);
 		player.SetQuickBarEntityShortcut(axe, 3, true);
+		player.SetQuickBarEntityShortcut(bandages, 4, true);
 	}
 };
 
