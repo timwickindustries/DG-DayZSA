@@ -87,17 +87,73 @@ class CustomMission: MissionServer
 	{
 		player.RemoveAllItems();
 
-		player.GetInventory().CreateInInventory("USMCPants_Woodland");
-		player.GetInventory().CreateInInventory("USMCJacket_Woodland");
-		player.GetInventory().CreateInInventory("CombatBoots_Black");
-		player.GetInventory().CreateInInventory("AssaultBag_Ttsko");
-		player.GetInventory().CreateInInventory("PlateCarrierBlank");
+		EntityAI itemEnt;
+		ItemBase itemBs;
 
+		switch (Math.RandomInt(0, 4)) { 
+		case 0:
+		// USMC
+		player.GetInventory().CreateInInventory("USMCPants_Woodland");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("USMCJacket_Woodland");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("CombatBoots_Black");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("AssaultBag_Ttsko");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("PlateCarrierBlank");
+		itemBs = ItemBase.Cast(itemEnt); 
+		break;
+
+		case 1:
+		// TTSKO
+		player.GetInventory().CreateInInventory("TTSKOPants");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("TTsKOJacket_Camo");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("CombatBoots_Black");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("AssaultBag_Ttsko");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("PlateCarrierBlank");
+		itemBs = ItemBase.Cast(itemEnt); 
+		break;
+
+		case 2:
+		// Gorka
+		player.GetInventory().CreateInInventory("GorkaPants_Autumn");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("GorkaEJacket_Autumn");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("CombatBoots_Black");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("AssaultBag_Green");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("PlateCarrierBlank");
+		itemBs = ItemBase.Cast(itemEnt); 
+		break;
+
+		case 3:
+		// OREL
+		player.GetInventory().CreateInInventory("PolicePantsOrel");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("PoliceJacketOrel");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("CombatBoots_Black");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("AssaultBag_Black");
+		itemBs = ItemBase.Cast(itemEnt);
+		player.GetInventory().CreateInInventory("PlateCarrierBlank");
+		itemBs = ItemBase.Cast(itemEnt); 
+		break;
+
+		}
+
+		// Generic Items
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("SpaghettiCan");
 		player.GetInventory().CreateInInventory("HuntingKnife");
-		ItemBase salineiv = player.GetInventory().CreateInInventory("Medical_TransfusionKit");
-		salineiv.SetQuantity(1);
+		player.GetInventory().CreateInInventory("Medical_TransfusionKit");
 		ItemBase bandages = player.GetInventory().CreateInInventory("BandageDressing");
 		bandages.SetQuantity(4);
 
@@ -114,7 +170,6 @@ class CustomMission: MissionServer
 		player.SetQuickBarEntityShortcut(primary, 0, true);
 		player.SetQuickBarEntityShortcut(axe, 1, true);
 		player.SetQuickBarEntityShortcut(bandages, 3, true);
-		player.SetQuickBarEntityShortcut(salineiv, 4, true);
 	}
 };
 
