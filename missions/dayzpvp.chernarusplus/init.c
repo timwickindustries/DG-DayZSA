@@ -57,7 +57,7 @@ class CustomMission: MissionServer
 		gun.GetInventory().CreateAttachment("M4_RISHndgrd_Black");
 		gun.GetInventory().CreateAttachment("M4_MPBttstck_Black");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
-		addMags(player, "Mag_STANAG_30Rnd", 7);
+		addMags(player, "Mag_STANAG_30Rnd", 3);
 
 		return gun;
 	}
@@ -68,7 +68,7 @@ class CustomMission: MissionServer
 		gun.GetInventory().CreateAttachment("PSO1Optic");
 		gun.GetInventory().CreateAttachment("AK_WoodBttstck");
 		gun.GetInventory().CreateAttachment("AK_WoodHndgrd");
-		addMags(player, "Mag_AKM_30Rnd", 7);
+		addMags(player, "Mag_AKM_30Rnd", 3);
 
 		return gun;
 	}
@@ -78,7 +78,7 @@ class CustomMission: MissionServer
 		EntityAI gun = player.GetHumanInventory().CreateInHands("UMP45");
 		gun.GetInventory().CreateAttachment("PistolSuppressor");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
-		addMags(player, "Mag_UMP_25Rnd", 10);
+		addMags(player, "Mag_UMP_25Rnd", 5);
 
 		return gun;
 	}
