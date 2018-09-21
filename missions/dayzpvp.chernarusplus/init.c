@@ -51,24 +51,24 @@ class CustomMission: MissionServer
 		player.SetQuickBarEntityShortcut(mag, 1, true);
 	}
 
-	EntityAI assaultClass(PlayerBase player)
+	EntityAI m4Class(PlayerBase player)
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("M4A1");
 		gun.GetInventory().CreateAttachment("M4_RISHndgrd_Black");
 		gun.GetInventory().CreateAttachment("M4_MPBttstck_Black");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
-		addMags(player, "Mag_STANAG_30Rnd", 3);
+		addMags(player, "Mag_STANAG_30Rnd", 7);
 
 		return gun;
 	}
 
-	EntityAI sniperClass(PlayerBase player)
+	EntityAI akmClass(PlayerBase player)
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("AKM");
 		gun.GetInventory().CreateAttachment("PSO1Optic");
 		gun.GetInventory().CreateAttachment("AK_WoodBttstck");
 		gun.GetInventory().CreateAttachment("AK_WoodHndgrd");
-		addMags(player, "Mag_AKM_30Rnd", 3);
+		addMags(player, "Mag_AKM_30Rnd", 7);
 
 		return gun;
 	}
@@ -78,7 +78,7 @@ class CustomMission: MissionServer
 		EntityAI gun = player.GetHumanInventory().CreateInHands("UMP45");
 		gun.GetInventory().CreateAttachment("PistolSuppressor");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
-		addMags(player, "Mag_UMP_25Rnd", 3);
+		addMags(player, "Mag_UMP_25Rnd", 7);
 
 		return gun;
 	}
@@ -91,19 +91,21 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("USMCJacket_Woodland");
 		player.GetInventory().CreateInInventory("CombatBoots_Black");
 		player.GetInventory().CreateInInventory("AssaultBag_Ttsko");
+		player.GetInventory().CreateInInventory("PlateCarrierBlank");
 
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("SpaghettiCan");
 		player.GetInventory().CreateInInventory("HuntingKnife");
-		ItemBase rags = player.GetInventory().CreateInInventory("Rag");
-		rags.SetQuantity(4);
+		player.GetInventory().CreateInInventory("Medical_TransfusionKit");
+		ItemBase bandages = player.GetInventory().CreateInInventory("BandageDressing");
+		bandages.SetQuantity(4);
 
 		EntityAI primary;
 		EntityAI axe = player.GetInventory().CreateInInventory("FirefighterAxe");
 
 		switch (Math.RandomInt(0, 3)) {
-			case 0: primary = assaultClass(player); break;
-			case 1: primary = sniperClass(player); break;
+			case 0: primary = m4Class(player); break;
+			case 1: primary = akmClass(player); break;
 			case 2: primary = smgClass(player); break;
 		}
 
