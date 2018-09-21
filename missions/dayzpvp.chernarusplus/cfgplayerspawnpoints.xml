@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playerspawnpoints>
     <spawn_params>
-        <min_dist_zombie>30.0</min_dist_zombie>
-        <max_dist_zombie>70.0</max_dist_zombie>
-        <min_dist_player>25.0</min_dist_player>
-        <max_dist_player>70.0</max_dist_player>
-        <min_dist_static>0.5</min_dist_static>
-        <max_dist_static>2.0</max_dist_static>
+        <min_dist_zombie>0</min_dist_zombie>
+        <max_dist_zombie>20</max_dist_zombie>
+        <min_dist_player>2</min_dist_player>
+        <max_dist_player>15</max_dist_player>
+        <min_dist_static>0</min_dist_static>
+        <max_dist_static>2</max_dist_static>
     </spawn_params>
 
     <!-- generate params -->
@@ -24,11 +24,18 @@
     </generator_params>
 
     <generator_posbubbles>
-		<pos x="6686.8" z="2290.11" />
-		<pos x="7235.6" z="2233.5" />
-		<pos x="6288.59" z="2574.14" />
-		<pos x="6827.66" z="3168.46" />
-		<pos x="6960.53" z="2550.45" />
+		<pos x="6522.74" z="2384.47" />
+		<pos x="6462.64" z="2296.49" />
+		<pos x="6424.29" z="2226.04" />
+		<pos x="6409.39" z="2320.74" />
+		<pos x="6407.35" z="2410.94" />
+        <pos x="6257.27" z="2559.53" />
+        <pos x="6262.2" z="2729.33" />
+        <pos x="6334.4" z="2714.96" />
+        <pos x="6441.41" z="2690.53" />
+        <pos x="6409.53" z="2639.55" />
+        <pos x="6458.79" z="2601.91" />
+        <pos x="6393.15" z="2524.43" />
     </generator_posbubbles>
 </playerspawnpoints>
 
