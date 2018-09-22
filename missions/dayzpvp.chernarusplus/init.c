@@ -50,7 +50,7 @@ class CustomMission: MissionServer
 
 		player.SetQuickBarEntityShortcut(mag, 1, true);
 	}
-
+	
 	EntityAI m4Class(PlayerBase player)
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("M4A1");
@@ -79,6 +79,17 @@ class CustomMission: MissionServer
 		gun.GetInventory().CreateAttachment("PistolSuppressor");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
 		addMags(player, "Mag_UMP_25Rnd", 5);
+
+		return gun;
+	}
+
+	EntityAI smg2Class(PlayerBase player)
+	{
+		EntityAI gun = player.GetHumanInventory().CreateInHands("MP5K");
+		gun.GetInventory().CreateAttachment("MP5_PlasticHndgrd");
+		gun.GetInventory().CreateAttachment("MP5k_StockBttstck");
+		gun.GetInventory().CreateAttachment("ACOGOptic");
+		addMags(player, "Mag_MP5_30Rnd", 5);
 
 		return gun;
 	}
@@ -161,17 +172,17 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("Morphine");
 
 		EntityAI primary;
-		EntityAI axe = player.GetInventory().CreateInInventory("FirefighterAxe");
 
-		switch (Math.RandomInt(0, 3)) {
+		switch (Math.RandomInt(0, 4)) {
 			case 0: primary = m4Class(player); break;
 			case 1: primary = akmClass(player); break;
 			case 2: primary = smgClass(player); break;
+			case 3: primary = smg2Class(player); break;
 		}
 
 		player.LocalTakeEntityToHands(primary);
+
 		player.SetQuickBarEntityShortcut(primary, 0, true);
-		player.SetQuickBarEntityShortcut(axe, 1, true);
 	}
 };
 
