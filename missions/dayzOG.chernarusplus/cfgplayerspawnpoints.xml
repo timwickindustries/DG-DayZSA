@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playerspawnpoints>
+    <spawn_params>
+        <min_dist_zombie>30.0</min_dist_zombie>
+        <max_dist_zombie>70.0</max_dist_zombie>
+        <min_dist_player>25.0</min_dist_player>
+        <max_dist_player>70.0</max_dist_player>
+        <min_dist_static>0.5</min_dist_static>
+        <max_dist_static>2.0</max_dist_static>
+    </spawn_params>
+
+    <!-- generate params -->
+    <!-- used when no file with generated points is found -->
+    <generator_params>
+        <grid_density>0.125</grid_density>
+        <grid_width>40.0</grid_width>
+        <grid_height>40.0</grid_height>
+        <min_dist_water>4.0</min_dist_water>
+        <max_dist_water>20.0</max_dist_water>
+        <min_dist_static>0.5</min_dist_static>
+        <max_dist_static>2.0</max_dist_static>
+        <min_steepness>-0.785398163</min_steepness>
+        <max_steepness>0.785398163</max_steepness>
+    </generator_params>
+
+    <generator_posbubbles>
+    	<!-- Kamenka -->
+    	<pos x="1244.61" z="2614.59" />
+		<pos x="1047.04" z="2268.01" />
+		<pos x="1787.07" z="2441.89" />
+		<pos x="2030.73" z="2235.37" />
+		<pos x="1166.07" z="2299.62" />
+
+	    <!-- Komarovo -->
+	    <pos x="3608.21" z="2151.49" />
+		<pos x="3666.51" z="2642.1" />
+		<pos x="3523.99" z="2415.42" />
+		<pos x="3468.39" z="2547.6" />
+		<pos x="3824.01" z="2589.4" />
+
+		<!-- Balota -->
+		<pos x="4388.23" z="2263.44" />
+		<pos x="5683.43" z="3004.63" />
+		<pos x="4517.41" z="2420.66" />
+		<pos x="5171.99" z="2070.86" />
+		<pos x="4253.29" z="2533.43" />
+
+		<!-- Cherno -->
+		<pos x="6686.8" z="2290.11" />
+		<pos x="7235.6" z="2233.5" />
+		<pos x="6288.59" z="2574.14" />
+		<pos x="6827.66" z="3168.46" />
+		<pos x="6960.53" z="2550.45" />
+
+		<!-- Elektro -->
+		<pos x="10845.3" z="2701.37" />
+		<pos x="9479.41" z="1960.8" />
+		<pos x="10497.3" z="2016.5" />
+		<pos x="10214.1" z="2411.58" />
+		<pos x="10432.7" z="2047.76" />
+
+		<!-- Kamyshovo -->
+		<pos x="12070.5" z="3591.06" />
+		<pos x="11972.7" z="3831.11" />
+		<pos x="11962.1" z="3567.45" />
+		<pos x="12245.1" z="3529.93" />
+		<pos x="11929.7" z="3472.91" />
+
+		<!-- Solnichny -->
+		<pos x="13387.5" z="6617.4" />
+		<pos x="13285" z="6115.62" />
+		<pos x="13310.1" z="6331.05" />
+		<pos x="13401.9" z="5995.73" />
+		<pos x="13513.4" z="6326.69" />
+
+    </generator_posbubbles>
+</playerspawnpoints>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
