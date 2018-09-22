@@ -71,8 +71,106 @@ class CustomMission: MissionServer
 	
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
+		player.RemoveAllItems();
+
 		EntityAI itemEnt;
 		ItemBase itemBs;
+
+		switch (Math.RandomInt(0, 7)) { 
+			case 0:
+			player.GetInventory().CreateInInventory("TShirt_Beige");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 1:
+			player.GetInventory().CreateInInventory("TShirt_Black");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 2:
+			player.GetInventory().CreateInInventory("TShirt_Blue");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 3:
+			player.GetInventory().CreateInInventory("TShirt_Green");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 4:
+			player.GetInventory().CreateInInventory("TShirt_Grey");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 5:
+			player.GetInventory().CreateInInventory("TShirt_Red");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 6:
+			player.GetInventory().CreateInInventory("TShirt_White");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+		}
+
+		switch (Math.RandomInt(0, 6)) { 
+			case 0:
+			player.GetInventory().CreateInInventory("Jeans_Black");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 1:
+			player.GetInventory().CreateInInventory("Jeans_Blue");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 2:
+			player.GetInventory().CreateInInventory("Jeans_BlueDark");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 3:
+			player.GetInventory().CreateInInventory("Jeans_Brown");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 4:
+			player.GetInventory().CreateInInventory("Jeans_Green");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 5:
+			player.GetInventory().CreateInInventory("Jeans_Grey");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+		}
+
+		switch (Math.RandomInt(0, 5)) { 
+			case 0:
+			player.GetInventory().CreateInInventory("AthleticShoes_Black");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 1:
+			player.GetInventory().CreateInInventory("AthleticShoes_Blue");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 2:
+			player.GetInventory().CreateInInventory("AthleticShoes_Brown");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 3:
+			player.GetInventory().CreateInInventory("AthleticShoes_Green");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 4:
+			player.GetInventory().CreateInInventory("AthleticShoes_Grey");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+		}
 
 		switch (Math.RandomInt(0, 3)) { 
 			case 0:
