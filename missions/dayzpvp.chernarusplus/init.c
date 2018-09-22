@@ -50,7 +50,7 @@ class CustomMission: MissionServer
 
 		player.SetQuickBarEntityShortcut(mag, 1, true);
 	}
-	
+
 	EntityAI m4Class(PlayerBase player)
 	{
 		EntityAI gun = player.GetHumanInventory().CreateInHands("M4A1");
@@ -88,8 +88,27 @@ class CustomMission: MissionServer
 		EntityAI gun = player.GetHumanInventory().CreateInHands("MP5K");
 		gun.GetInventory().CreateAttachment("MP5_PlasticHndgrd");
 		gun.GetInventory().CreateAttachment("MP5k_StockBttstck");
+		gun.GetInventory().CreateAttachment("PistolSuppressor");
 		gun.GetInventory().CreateAttachment("ACOGOptic");
 		addMags(player, "Mag_MP5_30Rnd", 5);
+
+		return gun;
+	}
+
+	EntityAI shotgunClass(PlayerBase player)
+	{
+		EntityAI gun = player.GetHumanInventory().CreateInHands("Mp133Shotgun");
+		addMags(player, "Ammo_12gaPellets", 5);
+
+		return gun;
+	}
+
+	EntityAI mosinClass(PlayerBase player)
+	{
+		EntityAI gun = player.GetHumanInventory().CreateInHands("Mosin9130");
+		gun.GetInventory().CreateAttachment("PUScopeOptic");
+		gun.GetInventory().CreateAttachment("Mosin_Compensator");
+		addMags(player, "Ammo_762x54", 5);
 
 		return gun;
 	}
@@ -173,11 +192,13 @@ class CustomMission: MissionServer
 
 		EntityAI primary;
 
-		switch (Math.RandomInt(0, 4)) {
+		switch (Math.RandomInt(0, 6)) {
 			case 0: primary = m4Class(player); break;
 			case 1: primary = akmClass(player); break;
 			case 2: primary = smgClass(player); break;
 			case 3: primary = smg2Class(player); break;
+			case 4: primary = shotgunClass(player); break;
+			case 5: primary = mosinClass(player); break;
 		}
 
 		player.LocalTakeEntityToHands(primary);
