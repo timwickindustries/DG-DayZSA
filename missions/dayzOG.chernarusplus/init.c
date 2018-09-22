@@ -75,26 +75,60 @@ class CustomMission: MissionServer
 		ItemBase itemBs;
 
 		switch (Math.RandomInt(0, 3)) { 
-		
-		case 0:
-		player.GetInventory().CreateInInventory("ChildBag_Blue");
-		itemBs = ItemBase.Cast(itemEnt);
-		break;
+			case 0:
+			player.GetInventory().CreateInInventory("ChildBag_Blue");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
 
-		case 1:
-		player.GetInventory().CreateInInventory("ChildBag_Green");
-		itemBs = ItemBase.Cast(itemEnt);
-		break;
+			case 1:
+			player.GetInventory().CreateInInventory("ChildBag_Green");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
 
-		case 2:
-		player.GetInventory().CreateInInventory("ChildBag_Red");
-		itemBs = ItemBase.Cast(itemEnt);
-		break;
+			case 2:
+			player.GetInventory().CreateInInventory("ChildBag_Red");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
 		}
 
-		player.GetInventory().CreateInInventory("HuntingKnife");
-		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
-		player.GetInventory().CreateInInventory("BakedBeansCan");
+		switch (Math.RandomInt(0, 3)) { 
+			case 0:
+			player.GetInventory().CreateInInventory("HuntingKnife");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 1:
+			player.GetInventory().CreateInInventory("KitchenKnife");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 2:
+			player.GetInventory().CreateInInventory("SteakKnife");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+		}
+
+		switch (Math.RandomInt(0, 4)) { 
+			case 0:
+			player.GetInventory().CreateInInventory("SodaCan_Pipsi");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 1:
+			player.GetInventory().CreateInInventory("SodaCan_Cola");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 2:
+			player.GetInventory().CreateInInventory("SodaCan_Kvass");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+
+			case 3:
+			player.GetInventory().CreateInInventory("SodaCan_Spite");
+			itemBs = ItemBase.Cast(itemEnt);
+			break;
+		}
 
 		EntityAI primary;
 
