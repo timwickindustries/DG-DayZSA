@@ -74,25 +74,20 @@ class CustomMission: MissionServer
 		EntityAI itemEnt;
 		ItemBase itemBs;
 
-		switch (Math.RandomInt(0, 4)) { 
+		switch (Math.RandomInt(0, 3)) { 
 		
 		case 0:
-		player.GetInventory().CreateInInventory("TaloonBag_Blue");
+		player.GetInventory().CreateInInventory("ChildBag_Blue");
 		itemBs = ItemBase.Cast(itemEnt);
 		break;
 
 		case 1:
-		player.GetInventory().CreateInInventory("TaloonBag_Green");
+		player.GetInventory().CreateInInventory("ChildBag_Green");
 		itemBs = ItemBase.Cast(itemEnt);
 		break;
 
 		case 2:
-		player.GetInventory().CreateInInventory("TaloonBag_Orange");
-		itemBs = ItemBase.Cast(itemEnt);
-		break;
-
-		case 3:
-		player.GetInventory().CreateInInventory("TaloonBag_Violet");
+		player.GetInventory().CreateInInventory("ChildBag_Red");
 		itemBs = ItemBase.Cast(itemEnt);
 		break;
 		}
