@@ -26,6 +26,7 @@ class Thirst: ModifierBase
 		return false;
 	}
 
+	/* - Commented out for PVP
 	override void OnTick(PlayerBase player, float deltaT)
 	{
 		player.GetMovementState(m_MovementState);
@@ -39,4 +40,5 @@ class Thirst: ModifierBase
 			player.AddHealth("GlobalHealth", "Health", -PlayerConstants.LOW_WATER_DAMAGE_PER_SEC * deltaT );
 		}
 	}
+	*/
 };
