@@ -196,7 +196,7 @@
     <event name="InfectedArmy">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
+        <min>25</min>
         <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -218,7 +218,7 @@
     <event name="InfectedCity">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
+        <min>25</min>
         <max>250</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
@@ -255,8 +255,8 @@
     <event name="InfectedFirefighter">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -273,8 +273,8 @@
     <event name="InfectedMedic">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -298,8 +298,8 @@
     <event name="InfectedPolice">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -317,8 +317,8 @@
     <event name="InfectedPrisoner">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -335,8 +335,8 @@
     <event name="InfectedSolitude">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -371,8 +371,8 @@
     <event name="InfectedVillage">
         <waves>0</waves>
         <nominal>50</nominal>
-        <min>75</min>
-        <max>250</max>
+        <min>25</min>
+        <max>100</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -452,8 +452,8 @@
     <event name="StaticHeliCrash">
         <waves>0</waves>
         <nominal>3</nominal>
-        <min>5</min>
-        <max>8</max>
+        <min>0</min>
+        <max>0</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -471,8 +471,8 @@
     <event name="StaticPoliceCar">
         <waves>0</waves>
         <nominal>10</nominal>
-        <min>2</min>
-        <max>6</max>
+        <min>0</min>
+        <max>0</max>
         <lifetime>2500</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -506,7 +506,7 @@
         <waves>0</waves>
         <nominal>140</nominal>
         <min>2</min>
-        <max>8</max>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>25</saferadius>
@@ -583,7 +583,7 @@
         <waves>0</waves>
         <nominal>140</nominal>
         <min>2</min>
-        <max>8</max>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>25</saferadius>
@@ -653,7 +653,7 @@
         <waves>0</waves>
         <nominal>8</nominal>
         <min>4</min>
-        <max>15</max>
+        <max>8</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -662,14 +662,14 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
     <event name="VehicleOffroadHatchback">
         <waves>0</waves>
         <nominal>6</nominal>
         <min>3</min>
-        <max>10</max>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
@@ -678,7 +678,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
     <event name="VehicleTransitBus">
@@ -694,7 +694,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
     <event name="VehicleV3SCargo">
@@ -710,7 +710,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
     <event name="VehicleV3SChassis">
@@ -726,7 +726,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" sec_spawner="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
 </events>
