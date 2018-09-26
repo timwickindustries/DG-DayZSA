@@ -27,7 +27,7 @@ class Hunger: ModifierBase
 	{
 
 	}
-
+	/* - PVP Comment out
 	override void OnTick(PlayerBase player, float deltaT)
 	{
 		player.GetMovementState(m_MovementState);
@@ -42,17 +42,16 @@ class Hunger: ModifierBase
 		player.GetStatEnergy().Add( -metabolic_speed * deltaT );
 		if ( energy <= PlayerConstants.LOW_ENERGY_TRESHOLD )
 		{
-			/*
+
 			float currenthealth = player.GetHealth("GlobalHealth", "Health");
 			float currentblood = player.GetHealth("GlobalHealth", "Blood");
 			
 			float health_delta = ( 1 - Math.InverseLerp(0,PlayerConstants.LOW_ENERGY_TRESHOLD, player.GetStatEnergy().Get()) ) * -PlayerConstants.DAMAGE_PER_SEC * deltaT;
 			
 			player.AddHealth("GlobalHealth", "", health_delta);
-			*/
+
 			player.AddHealth("GlobalHealth", "Health", -PlayerConstants.LOW_ENERGY_DAMAGE_PER_SEC * deltaT );
 		}
 	}
-	
-	
+	*/	
 };
