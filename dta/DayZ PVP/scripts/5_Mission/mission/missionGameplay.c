@@ -5,7 +5,6 @@ class MissionGameplay extends MissionBase
 	int		m_life_state;
 	bool	m_initialized;
 	bool	m_invUpdateThisFrame;
-	protected bool		m_IsOpenPauseMenu;
 	protected UIManager	m_UIManager;
 	
 	Widget			m_hud_root_widget;
@@ -632,6 +631,11 @@ class MissionGameplay extends MissionBase
 			Print( ChatMessageEventTypeID );
 			ChatMessageEventParams chat_params = ChatMessageEventParams.Cast( params );
 			
+			if (chat_params.param1 == CCSystem && GetProfileValueBool(SYSTEM_CHAT_MSG, true) == false) break;
+			if (chat_params.param1 == CCGlobal && GetProfileValueBool(GLOBAL_CHAT_MSG, true) == false) break;
+			if (chat_params.param1 == CCItemTransmitter && GetProfileValueBool(RADIO_CHAT_MSG, true) == false) break;
+			if (chat_params.param1 == CCDirect && GetProfileValueBool(DIRECT_CHAT_MSG, true) == false) break;
+			
 			if (m_life_state == EPlayerStates.ALIVE)
 			{
 				m_chat.Add(chat_params);
@@ -710,7 +714,6 @@ class MissionGameplay extends MissionBase
 	{
 		HideInventory();
 		GetUIManager().CloseAll();
-		m_IsOpenPauseMenu = false;
 	}
 	
 	void DestroyAllMenus()
@@ -880,8 +883,7 @@ class MissionGameplay extends MissionBase
 	
 	override bool IsPaused()
 	{
-		//return GetGame().GetUIManager().IsMenuOpen(MENU_INGAME);
-		return m_IsOpenPauseMenu;
+		return GetGame().GetUIManager().IsMenuOpen(MENU_INGAME);
 	}
 	
 	override void Pause()
@@ -895,7 +897,6 @@ class MissionGameplay extends MissionBase
 		
 		// open ingame menu
 		GetUIManager().EnterScriptedMenu(MENU_INGAME, NULL);
-		m_IsOpenPauseMenu = true;
 	}
 	
 	override void Continue()
@@ -906,7 +907,6 @@ class MissionGameplay extends MissionBase
 		}
 		
 		GetUIManager().CloseMenu(MENU_INGAME);
-		m_IsOpenPauseMenu = false;
 	}
 	
 	override bool IsMissionGameplay()

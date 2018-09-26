@@ -13,7 +13,7 @@ class UICargoGrid
 	{
 		m_Parent = parent;
 		int capacity = m_Entity.GetInventory().GetCargo().GetHeight() * m_Entity.GetInventory().GetCargo().GetWidth();
-		TextWidget tw = m_Parent.GetMainPanel().FindAnyWidget("CargoCount");
+		TextWidget tw = TextWidget.Cast( m_Parent.GetMainPanel().FindAnyWidget("CargoCount") );
 		#ifdef PLATFORM_CONSOLE
 			if( tw )
 				tw.Show( true );
@@ -422,14 +422,14 @@ class UICargoGrid
 					Icon iconn = m_ItemsContainer.GetIcon( showed_item );
 					if( iconn )
 					{
-						EntityAI ent = iconn.GetObject();
+						EntityAI ent = EntityAI.Cast( iconn.GetObject() );
 						if( ent )
 						{
-							GetGame().GetInventoryItemSize( ent, size_x, size_y );
+							GetGame().GetInventoryItemSize( ItemBase.Cast( ent ), size_x, size_y );
 							int capacity = m_Entity.GetInventory().GetCargo().GetHeight() * m_Entity.GetInventory().GetCargo().GetWidth();
 							occupied_cargo = occupied_cargo - size_x * size_y;
 							
-							TextWidget tw = m_Parent.GetMainPanel().FindAnyWidget("CargoCount");
+							TextWidget tw = TextWidget.Cast( m_Parent.GetMainPanel().FindAnyWidget("CargoCount") );
 							string cargo_count = occupied_cargo.ToString() + "/" + capacity;
 							if(tw)
 								tw.SetText( cargo_count );
@@ -508,7 +508,7 @@ class UICargoGrid
 			int capacity = m_Entity.GetInventory().GetCargo().GetHeight() * m_Entity.GetInventory().GetCargo().GetWidth();
 			occupied_cargo = occupied_cargo + size_x * size_y;
 			
-			TextWidget tw = m_Parent.GetMainPanel().FindAnyWidget("CargoCount");
+			TextWidget tw = TextWidget.Cast( m_Parent.GetMainPanel().FindAnyWidget("CargoCount") );
 			string cargo_count = occupied_cargo.ToString() + "/" + capacity;
 			if(tw)
 				tw.SetText( cargo_count );

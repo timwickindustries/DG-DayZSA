@@ -33,7 +33,7 @@ class RightArea: Container
 		m_PlayerContainer.Select();
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		m_PlayerContainer.SelectItem();
 	}

@@ -28,7 +28,6 @@ class Hunger: ModifierBase
 
 	}
 
-	/* - Commented out for PVP
 	override void OnTick(PlayerBase player, float deltaT)
 	{
 		player.GetMovementState(m_MovementState);
@@ -51,11 +50,9 @@ class Hunger: ModifierBase
 			
 			player.AddHealth("GlobalHealth", "", health_delta);
 			*/
-	/* - Added TW
 			player.AddHealth("GlobalHealth", "Health", -PlayerConstants.LOW_ENERGY_DAMAGE_PER_SEC * deltaT );
 		}
 	}
-	*/
 	
 	
 };

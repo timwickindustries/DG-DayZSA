@@ -31,7 +31,7 @@ class AttachmentCategoriesContainer: CollapsibleContainer
 		}
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		m_FocusedContainer.SelectItem();	
 	}

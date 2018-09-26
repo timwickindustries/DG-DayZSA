@@ -422,7 +422,7 @@ class Attachments
 			item_preview2.SetView( m_Entity.GetViewIndex() );
 			
 			int size_x, size_y;
-			GetGame().GetInventoryItemSize( m_Entity.GetInventory().FindAttachment( slot_id ) , size_x, size_y );
+			GetGame().GetInventoryItemSize( InventoryItem.Cast( m_Entity.GetInventory().FindAttachment( slot_id ) ), size_x, size_y );
 			int capacity = size_x * size_y;
 			TextWidget tw = TextWidget.Cast( item_preview2.GetParent().GetParent().FindAnyWidget( "ItemSize" + i % 7 ) );
 			

@@ -334,7 +334,7 @@ class PlayerContainer: CollapsibleContainer
 		}
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		if( m_FocusedContainer.IsInherited( ItemWithCargo ) || m_FocusedContainer.IsInherited( ItemWithCargoAndAttachments ) )
 		{
@@ -846,7 +846,7 @@ class PlayerContainer: CollapsibleContainer
 		}
 
 		EntityAI item = ipw.GetItem();
-		PlayerBase real_player = GetGame().GetPlayer();
+		PlayerBase real_player = PlayerBase.Cast( GetGame().GetPlayer() );
 		if( !item )
 		{
 			return;
@@ -936,7 +936,7 @@ class PlayerContainer: CollapsibleContainer
 					showed_player_ghost_entities.Insert( entity );
 					
 					int size_x, size_y;
-					GetGame().GetInventoryItemSize( entity, size_x, size_y );
+					GetGame().GetInventoryItemSize( InventoryItem.Cast( entity ), size_x, size_y );
 					int capacity = size_x * size_y;
 					name2.Replace( "GhostSlot", "ItemSize" );
 					TextWidget tw = TextWidget.Cast( ipw.GetParent().GetParent().FindAnyWidget( name2 ) );

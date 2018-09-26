@@ -56,9 +56,14 @@ class ContainerBase: ScriptedWidgetEventHandler
 	ContainerBase GetRoot()
 	{
 		if( m_Parent )
-			return m_Parent.GetRoot();
+		{
+			ref ContainerBase container = m_Parent.GetRoot();
+			return container;
+		}
 		else
+		{
 			return this;
+		}
 	}
 	
 	void UpdateInterval() {}

@@ -211,13 +211,20 @@ class ServerBrowserTab extends ScriptedWidgetEventHandler
 			float x, y;
 			float x_s, y_s;
 			float x_l, y_l;
-			entry.GetRoot().GetParent().Update();
-			entry.GetRoot().Update();
-			entry.GetRoot().GetParent().GetParent().GetParent().GetScreenPos( x, y );
-			entry.GetRoot().GetParent().GetParent().GetParent().GetScreenSize( x_s, y_s );
+			
+			Widget root = entry.GetRoot();
+			
+			root.GetParent().Update();
+			root.Update();
+			
+			m_ServerListScroller.GetScreenPos( x, y );
+			m_ServerListScroller.GetScreenSize( x_s, y_s );
+			
 			float bottom_pos = y + y_s;
-			entry.GetRoot().GetScreenPos( x_l, y_l );
-			entry.GetRoot().GetScreenSize( x_s, y_s );
+			
+			root.GetScreenPos( x_l, y_l );
+			root.GetScreenSize( x_s, y_s );
+			
 			if( y_l + y_s >= bottom_pos )
 			{
 				m_ServerListScroller.VScrollToPos( m_ServerListScroller.GetVScrollPos() + y_s );

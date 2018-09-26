@@ -91,6 +91,12 @@ class OptionsMenuGame extends ScriptedWidgetEventHandler
 		#endif
 	}
 	
+	void ~OptionsMenuGame()
+	{
+		m_FOVOption.Revert();
+		g_Game.SetUserFOV( m_FOVOption.ReadValue() );
+	}
+	
 	void Focus()
 	{
 		#ifdef PLATFORM_CONSOLE

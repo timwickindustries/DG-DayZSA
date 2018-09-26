@@ -2,11 +2,10 @@ class PlayerListScriptedWidget extends ScriptedWidgetEventHandler
 {
 	protected Widget												m_Root;
 	protected TextWidget											m_Header;
-	protected Widget												m_ScrollContainer;
+	protected ScrollWidget											m_ScrollContainer;
 	protected Widget												m_Content;
 	protected ref map<string, ref PlayerListEntryScriptedWidget>	m_Entries;
 	
-	protected ScrollBarContainer 									m_Scroller;
 	protected int													m_TotalEntries;
 	protected int													m_SelectedEntry;
 	
@@ -14,14 +13,14 @@ class PlayerListScriptedWidget extends ScriptedWidgetEventHandler
 	{
 		m_Root				= GetGame().GetWorkspace().CreateWidgets( "gui/layouts/xbox/ingamemenu_xbox/players_info_panel.layout", parent );
 		m_Header			= TextWidget.Cast( m_Root.FindAnyWidget( "header_text" ) );
-		m_ScrollContainer	= m_Root.FindAnyWidget( "ScrollFrame" );
+		m_ScrollContainer	= ScrollWidget.Cast( m_Root.FindAnyWidget( "ScrollFrame" ) );
 		m_Content			= m_Root.FindAnyWidget( "Content" );
 		
 		m_Entries			= new map<string, ref PlayerListEntryScriptedWidget>;
 		
 		m_Header.SetText( header_text );
 		
-		m_ScrollContainer.GetScript( m_Scroller );
+		m_ScrollContainer.VScrollToPos01( 0 );
 	}
 	
 	void ~PlayerListScriptedWidget()
@@ -33,7 +32,7 @@ class PlayerListScriptedWidget extends ScriptedWidgetEventHandler
 	{
 		if( m_Content && m_Content.GetChildren() )
 			SetFocus( m_Content.GetChildren().FindAnyWidget( "Button" ) );
-		m_Scroller.ScrollToTop();
+		m_ScrollContainer.VScrollToPos01( 0 );
 	}
 	
 	void Reload( SyncPlayerList player_list )
@@ -140,6 +139,22 @@ class PlayerListScriptedWidget extends ScriptedWidgetEventHandler
 		}
 	}
 	
+	PlayerListEntryScriptedWidget FindEntryByWidget( Widget button )
+	{
+		if( button && m_Entries )
+		{
+			foreach( string UID, ref PlayerListEntryScriptedWidget widget : m_Entries )
+			{
+				if( widget && widget.GetButtonWidget() == button )
+				{
+					return widget;
+				}
+			}
+		}
+		
+		return null;
+	}
+	
 	string FindPlayerByWidget( Widget button )
 	{
 		if( button && m_Entries )
@@ -192,54 +207,29 @@ class PlayerListScriptedWidget extends ScriptedWidgetEventHandler
 		}
 	}
 	
-	void SetNextActive()
+	void ScrollToEntry( PlayerListEntryScriptedWidget entry )
 	{
-		if( m_Content && m_Content.GetChildren() )
-		{
-			float x_p, y_p;
-			float x_s, y_s;
-			
-			Widget sibling = GetFocus().GetParent().GetSibling();
-			if( sibling )
-			{
-				sibling.GetPos( x_p, y_p );
-				sibling.GetSize( x_s, y_s );
-				float pos = y_p + y_s;
-				float contentypos = -m_Scroller.GetContentYPos();
-				float root_height = m_Scroller.GetRootHeight();
-				if( pos >= root_height + contentypos )
-				{
-					m_Scroller.ScrollToPos( pos - m_Scroller.GetRootHeight() );
-				}
-			}
-			else
-			{
-				m_Scroller.ScrollToTop();
-			}
-		}
-	}
-	
-	void SetPreviousActive()
-	{
-		if( m_Content && m_Content.GetChildren() )
+		if( entry )
 		{
 			float x, y;
 			float x_s, y_s;
+			float x_l, y_l;
 			
-			GetFocus().GetParent().GetPos( x, y );
-			GetFocus().GetParent().GetSize( x_s, y_s );
+			m_ScrollContainer.GetScreenPos( x, y );
+			m_ScrollContainer.GetScreenSize( x_s, y_s );
 			
-			float amount = y - y_s;
-			float limit = m_Scroller.GetContentYPos();
+			float bottom_pos = y + y_s;
 			
-			if( m_Content.GetChildren() == GetFocus().GetParent() )
+			entry.GetButtonWidget().GetScreenPos( x_l, y_l );
+			entry.GetButtonWidget().GetScreenSize( x_s, y_s );
+			
+			if( y_l + y_s >= bottom_pos )
 			{
-				m_Scroller.ScrollToBottom();
-				SetFocus( m_Content.GetChildren() );
+				m_ScrollContainer.VScrollToPos( m_ScrollContainer.GetVScrollPos() + y_s );
 			}
-			else if( amount < -limit )
+			else if( y_l <= y )
 			{
-				m_Scroller.ScrollToPos( amount );
+				m_ScrollContainer.VScrollToPos( m_ScrollContainer.GetVScrollPos() - y_s );
 			}
 		}
 	}

@@ -82,7 +82,7 @@ class OptionsMenuNew extends UIScriptedMenu
 	
 	void ~OptionsMenuNew()
 	{
-		m_Options.Revert();
+		Reset();
 	}
 	
 	override bool OnClick( Widget w, int x, int y, int button )
@@ -167,8 +167,6 @@ class OptionsMenuNew extends UIScriptedMenu
 			m_Reset.SetFlags( WidgetFlags.IGNOREPOINTER );
 		#endif
 		#endif
-		
-		
 		
 		if( m_Options.NeedRestart() )
 			g_Game.GetUIManager().ShowDialog("#main_menu_configure", "#menu_restart_needed", 117, DBT_YESNO, DBB_YES, DMT_QUESTION, this);
@@ -393,6 +391,18 @@ class OptionsMenuNew extends UIScriptedMenu
 		return ( w == m_Apply || w == m_Back || w == m_Reset );
 	}
 	
+	override void Refresh()
+	{
+		string version;
+		GetGame().GetVersion( version );
+		#ifdef PLATFORM_CONSOLE
+			version = "#main_menu_version" + " " + version + " (" + g_Game.GetDatabaseID() + ")";
+		#else
+			version = "#main_menu_version" + " " + version;
+		#endif
+		m_Version.SetText( version );
+	}
+	
 	override void OnShow()
 	{
 		super.OnShow();
@@ -430,7 +440,7 @@ class OptionsMenuNew extends UIScriptedMenu
 		
 		if( GetGame().GetInput().GetActionDown( UAUIBack, false ) )
 		{
-			Back();
+			Reset();
 		}
 	}
 	

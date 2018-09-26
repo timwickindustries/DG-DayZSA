@@ -96,7 +96,7 @@ class ItemWithCargo: ClosableContainer
 		m_CargoGrid.TransferItemToVicinity();
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		Icon focused_item = m_CargoGrid.GetFocusedItem();
 		if( !focused_item )

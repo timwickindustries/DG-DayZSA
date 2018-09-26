@@ -60,23 +60,24 @@ class Chat
 		int name_lenght = params.param2.Length();
 		int text_lenght = params.param3.Length();
 		int total_lenght = text_lenght + name_lenght;
+
 		/*
 		if( params.param1 == CCStatus || params.param1 == CCSystem )
  		{
-			if( !g_Game.GetProfileOption( EDayZProfilesOptions.GAME_MESSAGES ) )
+			if( g_Game.GetProfileOption( EDayZProfilesOptions.GAME_MESSAGES ) )
 				return;
  		}
 		else if( params.param1 == CCGlobal )
 		{
-			if( !g_Game.GetProfileOption( EDayZProfilesOptions.ADMIN_MESSAGES ) )
+			if( g_Game.GetProfileOption( EDayZProfilesOptions.ADMIN_MESSAGES ) )
 				return;
 		}
 		else if( params.param1 == CCDirect || params.param1 == CCItemTransmitter || params.param1 == CCPublicAddressSystem )
 		{
-			if( !g_Game.GetProfileOption( EDayZProfilesOptions.PLAYER_MESSAGES ) )
+			if( g_Game.GetProfileOption( EDayZProfilesOptions.PLAYER_MESSAGES ) )
 				return;
-		}
-		*/
+		}*/
+		
 		if (total_lenght > max_lenght)
 		{
 			int pos = 0;

@@ -55,7 +55,7 @@ class VicinityIconsContainer: Container
 		return ent == NULL;
 	}
 	
-	void UnfocusAll()
+	override void UnfocusAll()
 	{
 		for ( int i = 0; i < m_Container.m_Body.Count(); i++ )
 		{
@@ -110,7 +110,7 @@ class VicinityIconsContainer: Container
 		Print( m_Container.Get( m_FocusedRow ) );
 		m_Container.Get( m_FocusedRow ).GetMainPanel().FindAnyWidget( "Cursor" + m_FocusedColumn ).Show( true );
 		
-		Container cnt = m_Container.Get( m_FocusedRow );
+		Container cnt = Container.Cast( m_Container.Get( m_FocusedRow ) );
 		ItemPreviewWidget item_preview = ItemPreviewWidget.Cast( cnt.GetMainPanel().FindAnyWidget( "Render" + m_FocusedColumn ) );
 		EntityAI focused_item =  item_preview.GetItem();
 
@@ -209,7 +209,7 @@ class VicinityIconsContainer: Container
 		}
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		EntityAI ent = GetActiveItem();
 		ItemManager.GetInstance().SetSelectedItem( ent, NULL, m_Container.Get( m_FocusedRow ).GetMainPanel().FindAnyWidget( "Cursor" + m_FocusedColumn ) );

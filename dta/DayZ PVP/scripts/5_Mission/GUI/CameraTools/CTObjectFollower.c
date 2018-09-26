@@ -144,7 +144,7 @@ class CTObjectFollower extends ScriptedWidgetEventHandler
 		{
 			if( m_Menu )
 			{
-				m_Menu.SelectEvent( this );
+				m_Menu.SelectEvent( CTEvent.Cast( this ) );
 			}
 			return true;
 		}

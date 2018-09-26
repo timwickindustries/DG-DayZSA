@@ -15,13 +15,13 @@ class AttRow: ClosableContainer
 		return ipw.GetItem();
 	}
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		ItemBase item = ItemBase.Cast( GetFocusedEntity() );
 		ItemManager.GetInstance().SetSelectedItem( item, NULL, m_Ics.Get( m_FocusedRow ).GetMainPanel().FindAnyWidget( "Cursor" + m_FocusedColumn ) );
 	}
 	
-	void Select()
+	override void Select()
 	{
 		EntityAI prev_item = EntityAI.Cast( GetFocusedEntity() );
 		Man player = GetGame().GetPlayer();
@@ -86,7 +86,7 @@ class AttRow: ClosableContainer
 		}
 	}
 	
-	void TransferItem()
+	override void TransferItem()
 	{
 		EntityAI entity = GetFocusedEntity();
 		if( entity )
@@ -154,7 +154,7 @@ class AttRow: ClosableContainer
 		}
 	}
 	
-	void MoveGridCursor( int direction )
+	override void MoveGridCursor( int direction )
 	{
 		ItemManager.GetInstance().HideTooltip();
 		UnfocusAll();

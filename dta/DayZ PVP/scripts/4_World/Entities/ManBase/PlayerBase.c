@@ -65,6 +65,8 @@ class PlayerBase extends ManBase
 	AbstractWave 					m_SaySoundWave;
 	ref Timer						m_DeathCheckTimer;
 	ref PlayerSoundEventHandler 	m_PlayerSoundEventHandler;
+	ref Timer						m_AnalyticsTimer;
+	
 	int								m_StaminaState;
 	float							m_UnconsciousTime;
 	int 							m_ShockSimplified;
@@ -169,6 +171,9 @@ class PlayerBase extends ManBase
 		m_CancelAction = false;
 		m_RecipePick = 0;
 		m_ActionQBControl = false;
+		
+		m_AnalyticsTimer = new Timer( CALL_CATEGORY_SYSTEM );
+		
 		
 		if(  GetGame().IsClient() || ( !GetGame().IsMultiplayer() && GetGame().IsServer() ) )
 		{
@@ -2621,7 +2626,11 @@ class PlayerBase extends ManBase
 			}
 			if ( IsAlive() )
 			{
-				SimulateDeath(false);
+				SimulateDeath(false);		
+				if( GetGame().GetUserManager() && GetGame().GetUserManager().GetSelectedUser() )
+				{
+					ScriptAnalytics.PlayerDeath( GetGame().GetUserManager().GetSelectedUser().GetUid(), StatGet( "lifetime" ), "Death", "Unknown", 0, vector.Zero );
+				}
 			}
 			
 #ifdef BOT
@@ -3288,6 +3297,18 @@ class PlayerBase extends ManBase
 		ctx.Read( blood_type );
 		m_BloodType = blood_type;
 	}
+	
+	vector m_PlayerOldPos;
+	void UpdatePlayerMeasures()
+	{
+		int hour, minute, second;
+		GetHourMinuteSecond( hour, minute, second );
+		float distance;
+		distance = StatGet("playtime");
+		if( m_AnalyticsTimer )
+			ScriptAnalytics.PlayerMeasures( g_Game.GetDatabaseID(), m_AnalyticsTimer.GetRemaining(), hour, m_PlayerOldPos, GetPosition(), distance );
+		m_PlayerOldPos = GetPosition();
+	}
 
 	void OnConnect()
 	{
@@ -3296,6 +3317,24 @@ class PlayerBase extends ManBase
 		// NEW STATS API
 		StatRegister("playtime");
 		StatRegister("dist");
+		
+		m_PlayerOldPos = GetPosition();
+		m_AnalyticsTimer.Run( 60, this, "UpdatePlayerMeasures", null, true );
+	}
+	
+	void OnDisconnect()
+	{
+		Debug.Log("Player disconnected:"+this.ToString(),"Connect");
+
+		// force update of the stats
+		// if player disconnect too soon, UpdatePlayersStats() is not called
+		StatUpdateByTime("playtime");
+		StatUpdateByPosition("dist");
+		StatSyncToClient();
+		
+		ScriptAnalytics.PlayerDisconnected( g_Game.GetDatabaseID(), "Disconnect" );
+		m_AnalyticsTimer.Stop();
+		UpdatePlayerMeasures();
 	}
 
 	void SetModifiers(bool enable)
@@ -3453,18 +3492,6 @@ class PlayerBase extends ManBase
 	void UpdateQuickBarExtraSlots()
 	{
 		m_QuickBarBase.updateSlotsCount();
-	}
-
-
-	void OnDisconnect()
-	{
-		Debug.Log("Player disconnected:"+this.ToString(),"Connect");
-
-		// force update of the stats
-		// if player disconnect too soon, UpdatePlayersStats() is not called
-		StatUpdateByTime("playtime");
-		StatUpdateByPosition("dist");
-		StatSyncToClient();
 	}
 
 	bool Save()

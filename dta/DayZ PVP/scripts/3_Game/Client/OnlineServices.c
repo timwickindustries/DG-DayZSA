@@ -12,7 +12,7 @@ class OnlineServices
 	protected static ref map<string, bool>									m_MuteList;
 	protected static ref map<string, ref BiosPrivacyPermissionResultArray>	m_PermissionsList;
 	
-	static void Init( string uid )
+	static void Init()
 	{
 		#ifdef PLATFORM_CONSOLE
 			#ifndef PLATFORM_WINDOWS // if app is not on Windows with -XBOX parameter
@@ -207,7 +207,6 @@ class OnlineServices
 			perms.Insert( EBiosPrivacyPermission.COMMUNICATE_VOICE );
 			
 			ErrorCaught( m_ClientServices.GetPrivacyService().GetPermissionsAsync( player_list, perms ) );
-			Print("Load permissions");
 		}
 		else
 		{

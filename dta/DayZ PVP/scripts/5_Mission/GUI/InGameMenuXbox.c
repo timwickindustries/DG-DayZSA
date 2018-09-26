@@ -4,6 +4,8 @@ class InGameMenuXbox extends UIScriptedMenu
 	
 	protected Widget						m_OnlineMenu;
 	
+	protected TextWidget					m_Version;
+	
 	protected ButtonWidget					m_ContinueButton;
 	protected ButtonWidget					m_ExitButton;
 	protected ButtonWidget					m_RestartButton;
@@ -42,13 +44,14 @@ class InGameMenuXbox extends UIScriptedMenu
 		
 		m_OnlineMenu.Show( false );
 		
-		m_ContinueButton	= layoutRoot.FindAnyWidget( "continuebtn" );
-		m_ExitButton		= layoutRoot.FindAnyWidget( "exitbtn" );
-		m_RestartButton		= layoutRoot.FindAnyWidget( "restartbtn" );
-		m_OptionsButton		= layoutRoot.FindAnyWidget( "optionsbtn" );
-		m_ControlsButton	= layoutRoot.FindAnyWidget( "controlsbtn" );
-		m_OnlineButton		= layoutRoot.FindAnyWidget( "onlinebtn" );
-		m_TutorialsButton	= layoutRoot.FindAnyWidget( "tutorialsbtn" );
+		m_ContinueButton	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "continuebtn" ) );
+		m_ExitButton		= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "exitbtn" ) );
+		m_RestartButton		= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "restartbtn" ) );
+		m_OptionsButton		= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "optionsbtn" ) );
+		m_ControlsButton	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "controlsbtn" ) );
+		m_OnlineButton		= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "onlinebtn" ) );
+		m_TutorialsButton	= ButtonWidget.Cast( layoutRoot.FindAnyWidget( "tutorialsbtn" ) );
+		m_Version			= TextWidget.Cast( layoutRoot.FindAnyWidget( "version" ) );
 		
 		#ifdef PLATFORM_PS4
 		m_ControlsButton.Show( false );
@@ -56,17 +59,18 @@ class InGameMenuXbox extends UIScriptedMenu
 		#endif
 		
 		string version;
-		GetGame().GetVersion(version);
+		GetGame().GetVersion( version );
+		#ifdef PLATFORM_CONSOLE
+			version = "#main_menu_version" + " " + version + " (" + g_Game.GetDatabaseID() + ")";
+		#else
+			version = "#main_menu_version" + " " + version;
+		#endif
+		m_Version.SetText( version );
 		
 		Man player = GetGame().GetPlayer();
 		bool player_is_alive = false;
 		if (player)
 		{
-			if( player.GetIdentity() && GetGame().IsMultiplayer() )
-			{
-				OnlineServices.Init( player.GetIdentity().GetPlainId() );
-			}
-				
 			int life_state = player.GetPlayerState();
 
 			if (life_state == EPlayerStates.ALIVE)
@@ -266,8 +270,6 @@ class InGameMenuXbox extends UIScriptedMenu
 		GetGame().GetUIManager().CloseAll();
 		
 		GetGame().GetCallQueue(CALL_CATEGORY_GUI).Call(GetGame().RespawnPlayer);
-		
-		GetGame().GetUIManager().CloseAll();
 		//---------------------------------------------------
 		GetGame().GetCallQueue(CALL_CATEGORY_GUI).Call(GetGame().GetMission().Continue);
 	}
@@ -291,8 +293,7 @@ class InGameMenuXbox extends UIScriptedMenu
 			{
 				if( m_ServerInfoPanel )
 				{
-					m_ServerInfoPanel.SetPreviousActive();
-					
+					m_ServerInfoPanel.ScrollToEntry( m_ServerInfoPanel.FindEntryByWidget( GetFocus() ) );
 					uid = m_ServerInfoPanel.FindPlayerByWidget( GetFocus() );
 					if( uid != "" )
 					{
@@ -326,8 +327,7 @@ class InGameMenuXbox extends UIScriptedMenu
 			{
 				if( m_ServerInfoPanel )
 				{
-					m_ServerInfoPanel.SetNextActive();
-					
+					m_ServerInfoPanel.ScrollToEntry( m_ServerInfoPanel.FindEntryByWidget( GetFocus() ) );
 					uid = m_ServerInfoPanel.FindPlayerByWidget( GetFocus() );
 					if( uid != "" )
 					{
@@ -549,6 +549,18 @@ class InGameMenuXbox extends UIScriptedMenu
 		if( m_ContinueButton || w == m_ExitButton || w == m_RestartButton || w == m_OptionsButton || w == m_ControlsButton || w == m_OnlineButton || w == m_TutorialsButton );
 			return true;
 		return false;
+	}
+	
+	override void Refresh()
+	{
+		string version;
+		GetGame().GetVersion( version );
+		#ifdef PLATFORM_CONSOLE
+			version = "#main_menu_version" + " " + version + " (" + g_Game.GetDatabaseID() + ")";
+		#else
+			version = "#main_menu_version" + " " + version;
+		#endif
+		m_Version.SetText( version );
 	}
 	
 	//Coloring functions (Until WidgetStyles are useful)

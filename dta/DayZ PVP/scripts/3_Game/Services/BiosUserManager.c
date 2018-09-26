@@ -99,7 +99,10 @@ class BiosUserManager
 	*/
 	void OnUserDatabaseId(string dbID, EBiosError error)
 	{
-		Print("OnUserDatabaseId() dbID: " + dbID);	// remove me
+		if( !OnlineServices.ErrorCaught( error ) )
+		{
+			g_Game.SetDatabaseID( dbID );
+		}
 	}
 	
 	//! Callback function.

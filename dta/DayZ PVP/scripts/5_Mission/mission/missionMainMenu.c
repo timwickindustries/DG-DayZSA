@@ -22,7 +22,7 @@ class MissionMainMenu extends MissionBase
 		}
 	}
 	
-	void Reset()
+	override void Reset()
 	{
 		#ifdef PLATFORM_CONSOLE
 			delete m_IntroSceneXbox;

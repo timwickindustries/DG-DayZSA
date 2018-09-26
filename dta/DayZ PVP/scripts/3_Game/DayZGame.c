@@ -433,7 +433,9 @@ enum DayZLoadState
 	CONNECT_START,
 	CONNECT_USER_SELECT,
 	CONNECT_CONTROLLER_SELECT,
-	MISSION_START
+	MISSION_START,
+	MISSION_USER_SELECT,
+	MISSION_CONTROLLER_SELECT
 }
 
 class DayZGame extends CGame
@@ -900,6 +902,7 @@ class DayZGame extends CGame
 		// timer for spawning screen
 		#ifdef PLATFORM_CONSOLE
 			ClientSpawningFinished(newChar);
+			GetGame().GetUserManager().GetUserDatabaseIdAsync();
 		#else
 			if (queueTime > 0)
 			{
@@ -1083,20 +1086,13 @@ class DayZGame extends CGame
 				JoinLaunch();
 				CreateTitleScreen();
 			}
-			else
-			if ( GetCLIParam("connect", param) )
+			else if ( GetCLIParam("connect", param) )
 			{
 				ConnectLaunch();
 			}
 			else if ( GetCLIParam("mission", param) )
 			{
-				SetLoadState( DayZLoadState.MISSION_START );
-				BiosUserManager user_manager = GetGame().GetUserManager();
-				if( user_manager.GetTitleInitiator() )
-				{
-					user_manager.SelectUser( user_manager.GetTitleInitiator() );
-				}
-				PlayMission(param);
+				MissionLaunch();
 			}
 			else
 			{
@@ -1111,12 +1107,28 @@ class DayZGame extends CGame
 	protected ref Widget		m_GamepadDisconnectMenu;
 	protected int				m_PrevBlur;
 	
+	protected string			m_DatabaseID;
+	
 	protected string			m_ConnectAddress;
 	protected int				m_ConnectPort;
 	protected string			m_ConnectPassword;
 	
 	protected const int			MAX_VISITED = 50;
 	protected ref TStringArray	m_Visited;
+	
+	string GetDatabaseID()
+	{
+		return m_DatabaseID;
+	}
+	
+	void SetDatabaseID( string id )
+	{
+		m_DatabaseID = id;
+		if( GetUIManager().GetMenu() )
+		{
+			GetUIManager().GetMenu().Refresh();
+		}
+	}
 	
 	void CreateTitleScreen()
 	{
@@ -1197,9 +1209,11 @@ class DayZGame extends CGame
 		SetGameState( DayZGameState.CONNECT );
 		SetLoadState( DayZLoadState.CONNECT_START );
 		
-		#ifdef PLATFORM_CONSOLE
-			CreateTitleScreen();
-			SelectUser();
+		#ifndef PLATFORM_WINDOWS
+			#ifdef PLATFORM_CONSOLE
+				CreateTitleScreen();
+				SelectUser();
+			#endif
 		#else
 			ConnectFromCLI();
 		#endif
@@ -1227,6 +1241,29 @@ class DayZGame extends CGame
 		DeleteTitleScreen();
 	}
 	
+	void MissionLaunch()
+	{
+		BiosUserManager user_manager = GetGame().GetUserManager();
+		if( user_manager.GetTitleInitiator() )
+		{
+			user_manager.SelectUser( user_manager.GetTitleInitiator() );
+		}
+		
+		SetGameState( DayZGameState.IN_GAME );
+		SetLoadState( DayZLoadState.MISSION_START );
+		
+		#ifndef PLATFORM_WINDOWS
+			#ifdef PLATFORM_CONSOLE
+				CreateTitleScreen();
+				SelectUser();
+			#endif
+		#else
+			string mission;
+			GetCLIParam("mission", mission);
+			PlayMission(mission);
+		#endif
+	}
+	
 	void SelectUser()
 	{
 		BiosUserManager user_manager = GetGame().GetUserManager();
@@ -1239,7 +1276,7 @@ class DayZGame extends CGame
 				{
 					SetLoadState( DayZLoadState.JOIN_USER_SELECT );
 					
-					OnlineServices.Init( selected_user.GetUid() );
+					OnlineServices.Init();
 					GamepadCheck();
 					return;
 				}
@@ -1252,7 +1289,7 @@ class DayZGame extends CGame
 					}
 					SetLoadState( DayZLoadState.MAIN_MENU_USER_SELECT );
 					
-					OnlineServices.Init( selected_user.GetUid() );
+					OnlineServices.Init();
 					
 					GamepadCheck();
 					return;
@@ -1266,7 +1303,20 @@ class DayZGame extends CGame
 					}
 					SetLoadState( DayZLoadState.CONNECT_USER_SELECT );
 					
-					OnlineServices.Init( selected_user.GetUid() );
+					OnlineServices.Init();
+					GamepadCheck();
+					return;
+				}
+				case DayZLoadState.MISSION_START:
+				{
+					if( !selected_user )
+					{
+						user_manager.PickUser();
+						return;
+					}
+					SetLoadState( DayZLoadState.MISSION_USER_SELECT );
+					
+					OnlineServices.Init();
 					GamepadCheck();
 					return;
 				}
@@ -1293,10 +1343,10 @@ class DayZGame extends CGame
 		}
 		else
 		{
-			if( !m_IntroMenu && !( GetGame().GetUIManager().GetMenu() && GetGame().GetUIManager().GetMenu().GetID() == MENU_TITLE_SCREEN ) )
-				CreateTitleScreen();
 			#ifdef PLATFORM_CONSOLE
 			#ifndef PLATFORM_WINDOWS
+			if( !m_IntroMenu && !( GetGame().GetUIManager().GetMenu() && GetGame().GetUIManager().GetMenu().GetID() == MENU_TITLE_SCREEN ) )
+				CreateTitleScreen();
 			GetGame().GetInput().IdentifyGamepad( GamepadButton.A );
 			#endif
 			#endif
@@ -1314,6 +1364,7 @@ class DayZGame extends CGame
 			SetPlayerName( selected_user.GetName() );
 			#ifdef PLATFORM_CONSOLE
 				SetPlayerGameName( selected_user.GetName() );
+				GetGame().GetUserManager().GetUserDatabaseIdAsync();
 			#endif
 			if( GetUIManager().GetMenu() )
 			{
@@ -1340,6 +1391,15 @@ class DayZGame extends CGame
 				SetLoadState( DayZLoadState.MAIN_MENU_CONTROLLER_SELECT );
 				DeleteTitleScreen();
 				GetGame().GetUIManager().EnterScriptedMenu( MENU_MAIN, GetGame().GetUIManager().GetMenu() );
+				break;
+			}
+			case DayZLoadState.MISSION_USER_SELECT:
+			{
+				SetLoadState( DayZLoadState.MISSION_CONTROLLER_SELECT );
+				DeleteTitleScreen();
+				string mission;
+				GetCLIParam("mission", mission);
+				PlayMission(mission);
 				break;
 			}
 		}

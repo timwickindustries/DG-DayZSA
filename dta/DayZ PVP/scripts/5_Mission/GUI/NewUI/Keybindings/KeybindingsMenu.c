@@ -95,4 +95,16 @@ class KeybindingsMenu extends UIScriptedMenu
 		m_Reset.SetFlags( WidgetFlags.IGNOREPOINTER );
 		layoutRoot.FindAnyWidget( "Reset" ).Show( false );
 	}
+	
+		override void Refresh()
+	{
+		string version;
+		GetGame().GetVersion( version );
+		#ifdef PLATFORM_CONSOLE
+			version = "#main_menu_version" + " " + version + " (" + g_Game.GetDatabaseID() + ")";
+		#else
+			version = "#main_menu_version" + " " + version;
+		#endif
+		m_Version.SetText( version );
+	}
 }

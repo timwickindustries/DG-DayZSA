@@ -1392,7 +1392,7 @@ class Icon: ContainerBase
 		tw.Show( true );
 		#endif
 		int size_x, size_y;
-		GetGame().GetInventoryItemSize( m_Obj, size_x, size_y );
+		GetGame().GetInventoryItemSize( InventoryItem.Cast( m_Obj ), size_x, size_y );
 		int capacity = size_x * size_y;
 		tw.SetText( capacity.ToString() );
 		

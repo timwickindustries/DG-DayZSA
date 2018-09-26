@@ -307,7 +307,7 @@ class HandsContainer: Container
 		}
 	}*/
 	
-	void SelectItem()
+	override void SelectItem()
 	{
 		Man player = GetGame().GetPlayer();
 		EntityAI item_in_hands = player.GetHumanInventory().GetEntityInHands();

@@ -362,6 +362,15 @@ class CharacterCreationMenu extends UIScriptedMenu
 		#endif
 		
 		m_PlayerName.SetText( name );
+		
+		string version;
+		GetGame().GetVersion( version );
+		#ifdef PLATFORM_CONSOLE
+			version = "#main_menu_version" + " " + version + " (" + g_Game.GetDatabaseID() + ")";
+		#else
+			version = "#main_menu_version" + " " + version;
+		#endif
+		m_Version.SetText( version );
 	}
 	
 	override void OnHide()
