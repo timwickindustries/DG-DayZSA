@@ -1,0 +1,204 @@
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:50:41
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:50:41
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\DayZSurvival.chernarusplus\init.c(53): Bad type 'DayZSurvival'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:52:56
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:52:56
+Can't compile mission init script'!
+
+$CurrentDir://mpmissions//DayZSurvival.chernarusplus//ScriptedMods//ModuleManager.c(1): Multiple declaration of class 'ModuleManager'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:54:14
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:54:14
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\DayZSurvival.chernarusplus\init.c(53): Bad type 'DayZSurvival'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:55:47
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:55:47
+Can't compile mission init script'!
+
+$CurrentDir://mpmissions//DayZSurvival.chernarusplus//ScriptedMods//ModuleManager.c(1): Multiple declaration of class 'ModuleManager'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:57:07
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:57:07
+Can't compile mission init script'!
+
+$CurrentDir://mpmissions//DayZSurvival.chernarusplus//ScriptedMods//ModuleManager.c(1): Multiple declaration of class 'ModuleManager'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 22:59:06
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 22:59:06
+Can't compile mission init script'!
+
+$CurrentDir://mpmissions//DayZSurvival.chernarusplus//ScriptedMods//ModuleManager.c(1): Multiple declaration of class 'ModuleManager'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:00:46
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:00:46
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\DayZPVE.chernarusplus\init.c(53): Bad type 'DayZPVE'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:01:56
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:01:56
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\DayZPVE.chernarusplus\init.c(53): Bad type 'DayZSurvival'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:11:02
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:11:02
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c(29): Bad type 'AirDrop'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:12:21
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:12:21
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c(30): Bad type 'CustomMission'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:14:01
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:14:01
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c(30): Bad type 'DayZSurvival'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile DisableStamina  scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 17.12. 23:20:03
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 17.12 2018 23:20:03
+Can't compile mission init script'!
+
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c(30): Bad type 'CustomMission'
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 18.12. 07:40:53
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 18.12 2018 07:40:53
+NULL pointer to instance
+Class:      'SurvivorBase'
+Entity id:2933928
+
+Function: 'EEKilled'
+Stack trace:
+KillFeed/scripts/4_World/entities\manbase\playerbase.c:100
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 18.12 2018 11:52:50
+NULL pointer to instance. Variable 'm_State'
+Class:      'ActionManagerServer'
+Function: 'Update'
+Stack trace:
+scripts/4_World/classes\useractionscomponent\actionmanagerbase.c:108
+scripts/4_World/classes\useractionscomponent\actionmanagerserver.c:233
+scripts/4_World/entities\manbase\playerbase.c:1782
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 
+---------------------------------------------
+Log D:\DayZServer\profile\crash.log started at 18.12. 13:10:02
+
+
+
+------------------------------------
+WIN-3PI2OSCJA89, 18.12 2018 13:10:02
+NULL pointer to instance. Variable 'm_State'
+Class:      'ActionManagerServer'
+Function: 'Update'
+Stack trace:
+scripts/4_World/classes\useractionscomponent\actionmanagerbase.c:108
+scripts/4_World/classes\useractionscomponent\actionmanagerserver.c:233
+scripts/4_World/entities\manbase\playerbase.c:1782
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 dologs  adminlog  netlog  freezecheck  BEpath D:\DayZServer\battleye profiles D:\DayZServer\profile scrAllowFileWrite  mod @RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed; 

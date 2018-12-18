@@ -1,0 +1,1659 @@
+
+
+=====================================================================
+== D:\DayZServer\DayZServer_x64.exe
+== "DayZServer_x64.exe"  -config=serverDZ.cfg -port=2302 -dologs -adminlog -netlog -freezecheck -BEpath=D:\DayZServer\battleye -profiles=D:\DayZServer\profile -DisableStamina -scrAllowFileWrite "-mod=@RPCFramework;@Permissions Framework;@Community Online Tools;@KillFeed;"
+=====================================================================
+Exe timestamp: 2018/12/14 16:25:15
+Current time:  2018/12/17 22:50:17
+
+Version 1.0.149923
+22:50:17 Localization not present: STR_DATE_FORMAT_SHORT
+22:50:17 Localization not present: STR_TIME_FORMAT
+22:50:17 Localization not present: STR_WINDOWED
+22:50:17 Localization not present: STR_NO_CHANGE
+22:50:17 Localization not present: STR_CONFIG_CONTROLLER_NORMAL_LOOK
+22:50:17 Localization not present: STR_CONFIG_CONTROLLER_REVERSED_LOOK
+22:50:17 Localization not present: STR_SINGLE_PLAY
+22:50:17 Localization not present: STR_SINGLE_RESUME
+22:50:17 Localization not present: STR_SINGLE_RESTART
+22:50:17 Localization not present: STR_SINGLE_CREATE
+22:50:17 Localization not present: STR_LEFT_BUTTON
+22:50:17 Localization not present: STR_RIGHT_BUTTON
+22:50:17 Localization not present: STR_SINGLE_VOICE
+22:50:17 Localization not present: STR_ALL_VOICES
+22:50:17 Localization not present: STR_PLAYER_VOICE_ENABLED
+22:50:17 Localization not present: STR_VERY_SMALL
+22:50:17 Localization not present: STR_SMALL
+22:50:17 Localization not present: STR_MEDIUM
+22:50:17 Localization not present: STR_LARGE
+22:50:17 Localization not present: STR_VERY_LARGE
+22:50:17 Localization not present: STR_MP_VALIDERROR
+22:50:17 Localization not present: STR_MP_CONNECTION_LOOSING
+22:50:17 Localization not present: STR_MSG_MP_NO_PASSWORD
+22:50:17 Localization not present: STR_MSG_LAUNCH_GAME
+22:50:17 Localization not present: STR_MSG_MPW_NONAME
+22:50:17 Localization not present: STR_MSG_MISSION_VERSION
+22:50:17 Localization not present: STR_CLIENT_WAIT_TITLE
+22:50:17 Localization not present: STR_MPROLE_ENABLE_ALL
+22:50:17 Localization not present: STR_MPROLE_DISABLE_ALL
+22:50:17 Localization not present: STR_SPECIAL_NONE
+22:50:17 Localization not present: STR_SPECIAL_CARGO
+22:50:17 Localization not present: STR_SPECIAL_FLYING
+22:50:17 Localization not present: STR_SPECIAL_FORM
+22:50:17 Localization not present: STR_SPECIAL_CAN_COLLIDE
+22:50:17 Localization not present: STR_TITTYPE_NONE
+22:50:17 Localization not present: STR_TITTYPE_OBJECT
+22:50:17 Localization not present: STR_TITTYPE_RESOURCE
+22:50:17 Localization not present: STR_TITTYPE_TEXT
+22:50:17 Localization not present: STR_SECTION_MISSION
+22:50:17 Localization not present: STR_SECTION_INTRO
+22:50:17 Localization not present: STR_SECTION_OUTRO_WIN
+22:50:17 Localization not present: STR_SECTION_OUTRO_LOOSE
+22:50:17 Localization not present: STR_SECTION_CUTSCENE
+22:50:17 Localization not present: STR_LOAD_INIT
+22:50:17 Localization not present: STR_LOAD_WORLD
+22:50:17 Localization not present: STR_LOAD_GAME
+22:50:17 Localization not present: STR_SAVE_GAME
+22:50:17 Localization not present: STR_MP_CONNECT
+22:50:17 Localization not present: STR_MP_DISCONNECT
+22:50:17 Localization not present: STR_MP_CONNECTING
+22:50:17 Localization not present: STR_MP_TIMEOUT
+22:50:17 Localization not present: STR_DISP_CLIENT_TEXT_EDIT
+22:50:17 Localization not present: STR_TERRAIN_3_125
+22:50:17 Localization not present: STR_TERRAIN_12_5
+22:50:17 Localization not present: STR_TERRAIN_50
+22:50:17 Localization not present: STR_TEX_256
+22:50:17 Localization not present: STR_TEX_512
+22:50:17 Localization not present: STR_TEX_1024
+22:50:17 Localization not present: STR_TEX_2048
+22:50:17 Localization not present: STR_TEX_AUTO
+22:50:17 Localization not present: STR_FXAA
+22:50:17 Localization not present: STR_SHARP
+22:50:17 Localization not present: STR_SMAA
+22:50:17 Localization not present: STR_MP_LOGIN_QUEUE_FULL
+22:50:19 Updating base class All->AllVehicles, by DZ\data\config.bin/CfgVehicles/Man/
+22:50:19 Updating base class Transport->AllVehicles, by DZ\data\config.bin/CfgVehicles/Air/
+22:50:20 Updating base class Name->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/Hill/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/ViewPoint/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/RockArea/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/BorderCrossing/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationBroadleaf/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationFir/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationPalm/
+22:50:20 Updating base class Hill->NameIcon, by DZ\gear\navigation\config.bin/CfgLocationTypes/VegetationVineyard/
+22:50:20 Updating base class Weather->, by DZ\sounds\hpp\config.bin/CfgWorlds/CAWorld/Weather/
+22:50:20 Updating base class HorticultureBaseProxies->ProxyAttachment, by DZ\structures\residential\config.bin/CfgNonAIVehicles/ProxyTomato_Seeds/
+22:50:20 Updating base class ->Car, by DZ\vehicles\wheeled\config.bin/CfgVehicles/CarScript/
+22:50:21 ENGINE    (W): No module info used, trying to identify -> 0x6AC60000
+
+22:50:21 ENGINE    (W): Adjusting job system settings to have at least one job worker thread.
+
+22:50:21 MATERIAL  (E): ScreenSpacereflections (GenericWorldPPEffect) : Blue noise texture not found (system/textures/PP/blue_noise)
+
+22:50:21 [Inputs] Loading inputs default "dz/data/inputsdefault/constants.xml"
+22:50:21 [Inputs] Loading inputs cfg "D:\DayZServer\profile\Users\Survivor\Server.core.xml"
+22:50:21 ANIMATION (E): Can't load @KillFeed/Anims/cfg/skeletons.anim.xml
+
+22:50:21 ANIMATION (E): Failed to open file, line 0, column 0
+
+22:50:21 ANIMATION (E): Can't load @Community Online Tools/Anims/cfg/skeletons.anim.xml
+
+22:50:21 ANIMATION (E): Failed to open file, line 0, column 0
+
+22:50:21 ANIMATION (E): Can't load @Permissions Framework/Anims/cfg/skeletons.anim.xml
+
+22:50:21 ANIMATION (E): Failed to open file, line 0, column 0
+
+22:50:21 ANIMATION (E): Can't load @RPCFramework/Anims/cfg/skeletons.anim.xml
+
+22:50:21 ANIMATION (E): Failed to open file, line 0, column 0
+
+22:50:21 Warning Message: 'soundSetNear/' is not a value
+22:50:21 Warning Message: 'soundSetFar/' is not a value
+22:50:21 Warning Message: 'soundSetNear/' is not a value
+22:50:21 Warning Message: 'soundSetFar/' is not a value
+22:50:21 Warning Message: 'soundSetNear/' is not a value
+22:50:21 Warning Message: 'soundSetFar/' is not a value
+22:50:21 Warning Message: 'soundSetNear/' is not a value
+22:50:21 Warning Message: 'soundSetFar/' is not a value
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,197": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,207": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,208": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,209": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,215": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,216": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,217": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,218": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,219": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,220": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,223": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,225": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,226": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,227": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,228": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,232": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,233": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,239": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,240": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,241": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,242": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,243": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,244": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,258": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,661": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,1234": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,1244": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,1707": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3029": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3090": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3130": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3155": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3184": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3189": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3337": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3339": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3352": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 SCRIPT    (W): @"scripts/4_World/entities\manbase\playerbase.c,3766": Unsafe down-casting, use 'PlayerBase.Cast' for safe down-casting
+
+22:50:22 RENDER    (E): Cannot find PP effect CloudsEffect, is the name correct?
+
+22:50:22 MATERIAL  (E): Can't load 'DropRefractionTex' 'graphics/textures/postprocess/drop_refraction.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'DistantTex' 'graphics/textures/postprocess/raindistantmask.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'RotationNoiseMap' 'graphics/textures/postprocess/noise.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'RipplesMap' 'graphics/textures/postprocess/ripple.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'MovableMap' 'graphics/textures/postprocess/rainripplesmovable.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'MovableNoiseMap' 'graphics/textures/postprocess/rainripplesmovablenoise.edds', in material @"Graphics/Materials/postprocess/rain.emat"
+
+22:50:22 MATERIAL  (E): Can't load 'ColorTable' 'graphics/textures/postprocess/color_test.edds', in material @"Graphics/Materials/postprocess/colorgrading.emat"
+
+22:50:22 Warning: CfgWeapons missing in PreloadConfig - may slow down vehicle creation
+22:50:22 Warning: CfgMagazines missing in PreloadConfig - may slow down vehicle creation
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_CAR" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_HELICOPTER" not found
+22:50:22 String "STR_DN_HELICOPTER" not found
+22:50:22 String "STR_DN_MAN" not found
+22:50:22 String "STR_DN_ANIMAL" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_BUNKER" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_UNKNOWN" not found
+22:50:22 String "STR_DN_MAN" not found
+22:50:22 String "STR_DN_MAN" not found
+22:50:22 String "STR_DN_MAN" not found
+22:50:22 String "STR_DN_CAR" not found
+22:50:22 String "STR_DN_ANIMAL" not found
+22:50:22 String "STR_DN_ANIMAL" not found
+22:50:22 String "STR_CfgVehicles_NBCGloves_ColorBase0" not found
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.scope'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.camouflage'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.audible'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.displayName'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.nameSound'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.destrType'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.maxSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.limitedSpeedCoef'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.secondaryExplosion'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.driverCanEject'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.cargoCanEject'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.itemsCargoSize'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.clothingType'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEngine'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEnviron'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundDammage'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundLandCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundWaterCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundGetIn'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundGetOut'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundServo'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEngineOnInt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEngineOffInt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEngineOnExt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundEngineOffExt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundLocked'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.soundIncommingMissile'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.SoundEnvironExt'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.SoundGear'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.SoundEquipment'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.reversed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgVehicles/CfgNonAIVehicles.HeadAimDown'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 String "STR_DN_MAN" not found
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hit'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.indirectHit'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.indirectHitRange'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.maxControlRange'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.maneuvrability'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.trackOversteer'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.trackLead'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.thrust'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.thrustTime'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.initTime'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.explosionTime'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.fuseDistance'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.maxSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.sideAirFriction'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.simulationStep'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.initSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.maxLeadSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.typicalSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.visibleFire'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.audibleFire'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.visibleFireTime'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.irLock'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.laserLock'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.nvLock'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.manualControl'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.explosive'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.caliber'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.deflecting'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.timeToLive'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitGroundSoft'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitGroundHard'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitMan'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitArmor'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitIron'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitBuilding'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitFoliage'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitWood'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitGlass'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitGlassArmored'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitPlastic'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitConcrete'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitRubber'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitMetalplate'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitMetal'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.hitDefault'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.soundFly'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.soundEngine'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.supersonicCrackNear'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.supersonicCrackFar'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.damageBarrel'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.damageBarrelDestroyed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.jamChance'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgAmmo/cfgAmmoTypes.jamChanceDestroyed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/Bird/
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/Insect/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCargo/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo01.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCargo01/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo01.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo01.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo02.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCargo02/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo02.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo02.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo03.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCargo03/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo03.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo03.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo04.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCargo04/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo04.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCargo04.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyDriver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyDriver/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyDriver.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyDriver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyV3S_Driver/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_Driver.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_CargoA.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyV3S_CargoA/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_CargoA.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyV3S_CargoA.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Driver/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Driver.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Cargo/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Cargo.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyCivilianSedan_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyBus_Driver/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Driver.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyBus_Cargo/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Cargo.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyBus_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyHatchback_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyHatchback_Cargo/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyHatchback_Cargo.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyHatchback_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Driver/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Driver.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Driver.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation  in bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Cargo/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Cargo.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgNonAIVehicles/ProxyEnduro_Cargo.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/DragonFly/
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/ButterFly/
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/HouseFly/
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/HoneyBee/
+22:50:22 Unrecognized CfgNonAIVehicles simulation seagull in bin\config.bin/CfgNonAIVehicles/Mosquito/
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.model'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.camouflage'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.audible'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.displayName'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.nameSound'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.destrType'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.maxSpeed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.limitedSpeedCoef'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.secondaryExplosion'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.driverCanEject'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.cargoCanEject'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.itemsCargoSize'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.clothingType'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEngine'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEnviron'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundDammage'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundLandCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundWaterCrash'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundGetIn'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundGetOut'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundServo'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEngineOnInt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEngineOffInt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEngineOnExt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundEngineOffExt'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundLocked'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.soundIncommingMissile'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.SoundEnvironExt'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.SoundGear'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.SoundEquipment'.
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.reversed'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.HeadAimDown'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.type'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.Library'.
+22:50:22 Warning Message: No entry '.libTextDesc'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.simulation'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.fireLightDuration'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.fireLightIntensity'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.weight'.
+22:50:22 Warning Message: '/' is not a value
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Weapon_Base.muzzles'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/DefaultWeapon.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/PistolCore.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/RifleCore.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/MGunCore.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/LauncherCore.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/GrenadeWeaponCore.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Rifle_Base.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Pistol_Base.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Archery_Base.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/Launcher_Base.chamberableFrom'.
+22:50:22 Warning Message: Size: '/' not an array
+22:50:22 Warning Message: No entry 'bin\config.bin/CfgWeapons/AugSteyr_Base.CfgOpticsEffect'.
+22:50:23 Warning Message: No entry 'bin\config.bin/CfgWeapons/NonlethalCore.chamberableFrom'.
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: No entry 'bin\config.bin/CfgWeapons/NonlethalPistol.chamberableFrom'.
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: No entry 'bin\config.bin/CfgWeapons/NonlethalRifle.chamberableFrom'.
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 ANIMATION (E): Animation 'DZ/animals/animations/cow_skeleton/walk_nervous.anm' has undefined bone 'scrotum'
+
+22:50:23 Warning Message: No entry 'bin\config.bin/CfgSoundShaders.default_HoofMediumRun_default_SoundShader'.
+22:50:23 Warning Message: No entry '.samples'.
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_BosTaurus_Brown.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_BosTaurusF_Brown.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CanisLupus_Grey.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/CfgSoundShaders.default_HoofSmallRun_default_SoundShader'.
+22:50:23 Warning Message: No entry '.samples'.
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: Size: '/' not an array
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CapraHircus_Brown.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CapraHircusF.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CapreolusCapreolus.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CapreolusCapreolusF.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CervusElaphus.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_CervusElaphusF.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_GallusGallusDomesticus.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_GallusGallusDomesticusF_Brown.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_OvisAries.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_OvisAriesF.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 Warning Message: No entry 'bin\config.bin/PreloadVehicles/Animal_SusDomesticus.loadStyle'.
+22:50:23 Warning Message: '/' is not a value
+22:50:23 MATERIAL  (E): Object dz/characters/zombies/z_hermit_m.xob - cannot load material Material_1.emat
+
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedMale/BehaviourHLZombie/SlotCalm/BehaviourZombieCalm/SoundsDuring/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedMale/BehaviourHLZombie/SlotAlerted/BehaviourZombieAlerted/SoundsEntering/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedMale/BehaviourHLZombie/SlotAlerted/BehaviourZombieAlerted/SoundsDuring/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/PreloadVehicles/ZmbM_HermitSkinny_Beige.loadStyle'.
+22:50:24 Warning Message: '/' is not a value
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedFemale/BehaviourHLZombie/SlotCalm/BehaviourZombieCalm/SoundsDuring/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedFemale/BehaviourHLZombie/SlotAlerted/BehaviourZombieAlerted/SoundsEntering/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgAIBehaviours/InfectedFemale/BehaviourHLZombie/SlotAlerted/BehaviourZombieAlerted/SoundsDuring/Sound1.sounds'.
+22:50:24 Warning Message: No entry 'bin\config.bin/PreloadVehicles/ZmbF_CitizenANormal_Beige.loadStyle'.
+22:50:24 Warning Message: '/' is not a value
+22:50:24 SUCCESS: SteamGameServer_Init(0,8766,2302,27013,3,1.0.149923)
+22:50:24 Server: SetClientState dpid=2 id=0 name=__SERVER__ CREATED -> CONNECTED
+22:50:24 Server: SetClientState dpid=2 id=0 name=__SERVER__ MISSION SELECTED -> PLAYER ASSIGNED
+22:50:24 Server: SetClientState dpid=2 id=0 name=__SERVER__ PLAYER ASSIGNED -> MISSION RECEIVED
+22:50:24 Warning Message: No entry 'bin\config.bin/CfgWorlds/CAWorld/Weather.Lighting'.
+22:50:24 No lighting defined in bin\config.bin/CfgWorlds/CAWorld/Weather.Lighting
+22:50:24 Terrain normal texture loaded (dz\worlds\chernarusplus\data\global_nohq.paa)...
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\wood.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\surfaces\clutter.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\concrete.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\iron.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\bricks.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\foliage.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\granite.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\plastic.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\metalPlate.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\glass.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 PerfWarning: Way too much components (582) in dz\structures\industrial\power\power_station.p3d:geometryFire
+22:50:26 Warning Message: No entry 'dz\data\data\Penetration\ironPlate.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\wood_desk.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Convex "component36" selection faces are less then 4 in dz\structures\military\houses\mil_barracks4.p3d:geometryView
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\glass_House.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\Penetration\castIron.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 PerfWarning: Way too much components (564) in dz\structures\military\houses\mil_barracks5.p3d:geometryFire
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\pottery.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\Penetration\cushion.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\Penetration\leather.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\cloth.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\glassPlate.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\foliage_Green.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\dirt.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\rubber.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\glass_armored.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\mattress.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:26 PerfWarning: Way too much components (538) in dz\structures\specific\prison\prison_side.p3d:geometryFire
+22:50:26 Warning Message: No entry 'dz\data\data\penetration\plastic_material.bisurf.isLiquid'.
+22:50:26 Warning Message: '/' is not a value
+22:50:27 Convex "component05" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component15" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component18" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component22" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component24" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component30" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component34" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component38" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component49" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component51" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component52" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component54" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component58" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component65" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component76" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component90" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component94" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component99" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component110" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component113" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component116" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component158" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component169" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component176" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component186" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component187" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component195" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component197" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component198" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component200" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component209" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component223" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component237" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component239" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component241" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component251" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component252" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component290" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component320" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component323" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component326" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component339" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component352" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component353" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component366" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component376" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component388" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component400" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component463" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component470" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component477" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component479" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component484" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component486" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component494" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component498" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component508" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component512" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component524" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component525" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component538" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component554" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component559" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component561" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component566" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component579" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component581" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component586" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component590" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component601" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component608" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component620" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component625" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component626" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component645" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component664" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component672" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component673" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component677" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component679" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component680" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component686" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component701" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component704" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component705" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component706" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component711" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component729" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component745" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component753" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component761" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component763" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component786" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component792" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component799" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component815" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component823" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component826" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component835" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component842" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component860" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component863" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component879" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component899" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component909" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component920" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component924" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component931" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component945" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component958" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component963" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component969" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component972" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component975" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1001" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1007" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1029" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1030" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1059" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1060" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1068" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1076" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1112" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1119" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1123" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1131" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1145" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1155" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1188" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1192" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1204" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1208" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1210" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1216" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1219" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1228" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1236" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1240" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1244" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1252" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1265" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1271" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1278" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1290" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1291" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1296" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1298" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1321" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1326" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1334" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1352" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1355" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1358" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1359" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1361" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1362" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1363" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1368" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1369" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1371" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1373" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1376" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1378" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1384" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1387" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1390" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1395" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1401" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1405" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1408" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1410" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1412" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1414" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1415" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1416" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1418" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1419" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1420" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1421" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1423" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1424" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1425" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1427" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1428" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1429" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1430" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1431" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1433" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1443" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1444" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1447" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1448" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1450" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1451" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1453" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1454" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1455" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1459" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1460" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1461" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1463" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1464" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1467" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1469" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1471" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1474" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1477" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1482" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1483" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1484" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1485" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1486" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1487" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1493" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1495" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1496" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1497" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1499" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1500" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1502" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1503" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1504" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1506" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1507" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1508" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1511" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1512" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1513" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1514" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1516" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1517" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1519" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1523" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1524" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1528" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1530" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1532" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1533" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1535" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1536" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1539" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1541" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1543" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1544" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1545" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1546" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1547" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1548" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1549" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1550" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1551" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1553" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1554" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1555" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1556" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1558" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1560" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1561" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1564" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1566" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1569" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1570" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1573" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1577" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1578" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1579" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1580" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1581" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1584" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1585" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1586" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1587" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1588" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1589" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1592" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1593" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1595" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1597" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1601" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1603" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1604" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1605" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1608" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1609" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1610" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1611" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1612" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1613" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1614" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1615" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Convex "component1616" selection faces are less then 4 in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (1325) in dz\rocks\rock_wallh1.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\Penetration\fabric_thin.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 PerfWarning: Way too much components (948) in dz\structures\specific\prison\prison_wall_large.p3d:geometryFire
+22:50:27 Convex "component44" selection faces are less then 4 in dz\structures\industrial\houses\workshop3.p3d:geometryView
+22:50:27 Convex "component45" selection faces are less then 4 in dz\structures\industrial\houses\workshop3.p3d:geometryView
+22:50:27 Warning Message: Animation source slot_01 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_02 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_03 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_04 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_05 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_06 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_07 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_08 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Warning Message: Animation source slot_09 not found in bin\config.bin/CfgVehicles/Land_Misc_Greenhouse/
+22:50:27 Convex "component41" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component42" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component43" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component44" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component45" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component46" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component47" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component48" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component49" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component50" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component51" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component52" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component53" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component54" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component55" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component56" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component57" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component58" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component59" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component60" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component61" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component62" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component63" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component64" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component65" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component66" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component67" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component68" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component69" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component70" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component71" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component72" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component73" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component74" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component75" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component76" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component77" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component81" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component82" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component83" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component84" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component85" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component86" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component87" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component88" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component89" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component90" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component91" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component93" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component96" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component97" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component98" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component99" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component102" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component103" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component104" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component105" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component107" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component108" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component110" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component111" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component112" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component113" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component114" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component115" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component116" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component117" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component118" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component119" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component120" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component121" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component122" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component123" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component124" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component125" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component126" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component128" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component129" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component130" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component131" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component132" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component133" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component134" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component135" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component136" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component137" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component138" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component139" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component140" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component141" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component143" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component145" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component146" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component147" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component148" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component149" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component150" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component151" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component153" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component154" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component155" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component156" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component157" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component158" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component160" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component161" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component162" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component163" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component164" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component165" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component166" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component167" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component168" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component169" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component170" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component171" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component172" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component173" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component174" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component175" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component176" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component177" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component178" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component179" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component180" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component181" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component182" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component183" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component184" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component185" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component186" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component187" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component188" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component189" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component191" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component192" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component193" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component194" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component195" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component196" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component197" selection faces are less then 4 in dz\plants\tree\t_prunusdomestica_2s.p3d:geometryFire
+22:50:27 Convex "component92" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 Convex "component93" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 Convex "component94" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 Convex "component95" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 Convex "component96" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 Convex "component117" selection faces are less then 4 in dz\plants\tree\t_pyruscommunis_3s.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (742) in dz\structures\residential\police\village_policestation.p3d:geometryFire
+22:50:27 Convex "component36" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component37" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component38" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component39" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component40" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component41" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component47" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component48" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component49" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component50" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component51" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component52" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component137" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component138" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component139" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component140" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component141" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component142" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component143" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component145" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component151" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component152" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component153" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component154" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component155" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component156" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component157" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component158" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component172" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component173" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component174" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component175" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component176" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component177" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component185" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component186" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component187" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component188" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component189" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component190" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component195" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component196" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component197" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component198" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component199" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 Convex "component200" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_3s.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (786) in dz\structures\residential\houses\house_1w08.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\penetration\rubberPlate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 PerfWarning: Way too much components (665) in dz\structures\residential\houses\house_2w01.p3d:geometryFire
+22:50:27 Convex "component09" selection faces are less then 4 in dz\structures\residential\sheds\shed_w3.p3d:geometryView
+22:50:27 Convex "component10" selection faces are less then 4 in dz\structures\residential\sheds\shed_w3.p3d:geometryView
+22:50:27 Convex "component11" selection faces are less then 4 in dz\structures\residential\sheds\shed_w3.p3d:geometryView
+22:50:27 Warning Message: No entry 'dz\data\data\Penetration\fabricP.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 PerfWarning: Way too much components (1028) in dz\structures\residential\houses\house_2w03.p3d:geometryFire
+22:50:27 Convex "component112" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component113" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component114" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component115" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component116" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component117" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component125" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component126" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component127" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component128" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component188" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component189" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component190" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component191" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component192" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 Convex "component193" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2s.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (792) in dz\structures\residential\houses\house_1w11.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (865) in dz\structures\residential\houses\house_1b01_pub.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (534) in dz\structures\specific\churches\church2_2.p3d:geometryFire
+22:50:27 Convex "component09" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component12" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component13" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component16" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component17" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component20" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component21" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component23" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Convex "component25" selection faces are less then 4 in dz\structures\walls\wall_gate_cgry.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\penetration\coniferFoliage.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 Warning Message: No entry 'dz\data\data\penetration\armor_1mm_plate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 Convex "component54" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component189" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component190" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component191" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component192" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component193" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component194" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component204" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component205" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component206" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component207" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component208" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component209" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component221" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component222" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component223" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 Convex "component224" selection faces are less then 4 in dz\plants\tree\t_robiniapseudoacacia_2s.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (641) in dz\structures\residential\tenements\tenement_small.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\penetration\glass_impenetrable.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 Convex "component28" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component36" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component44" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component45" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component52" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component53" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component54" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component55" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component60" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component61" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component68" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component69" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component70" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component72" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component81" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component84" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component85" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component86" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component88" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component89" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component90" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component91" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component92" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component93" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component95" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component96" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component97" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component98" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component100" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component109" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component110" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component113" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component114" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component117" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component119" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component122" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component124" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component125" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component126" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component127" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component129" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component140" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component141" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component143" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component144" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component157" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component161" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component162" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component163" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component165" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component166" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component167" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component168" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component169" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component170" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component171" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component173" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component174" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component176" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component177" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component178" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component179" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component180" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component181" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component183" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component184" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component185" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component187" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component188" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component189" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component190" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component192" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component193" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component194" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component195" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component196" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component197" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component198" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 Convex "component199" selection faces are less then 4 in dz\plants\tree\t_betulapendula_2fc.p3d:geometryFire
+22:50:27 PerfWarning: Way too much components (642) in dz\structures\residential\tenements\tenement_big.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\Penetration\castIronPlate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 Warning Message: No entry 'dz\data\Data\Penetration\armor_11mm_plate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 Warning Message: No entry 'dz\data\data\Penetration\armor_7mm_plate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 PerfWarning: Way too much components (821) in dz\structures\wrecks\vehicles\wreck_hmmwv.p3d:geometryFire
+22:50:27 Warning Message: No entry 'dz\data\data\penetration\armor_3mm_plate.bisurf.isLiquid'.
+22:50:27 Warning Message: '/' is not a value
+22:50:27 PerfWarning: Way too much components (704) in dz\structures\wrecks\vehicles\wreck_ural.p3d:geometryFire
+22:50:27 Convex "component02" selection faces are less then 4 in dz\structures\industrial\houses\guardhouse.p3d:geometry
+22:50:27 Convex "component03" selection faces are less then 4 in dz\structures\industrial\houses\guardhouse.p3d:geometry
+22:50:27 Convex "component04" selection faces are less then 4 in dz\structures\industrial\houses\guardhouse.p3d:geometry
+22:50:28 PerfWarning: Way too much components (779) in dz\structures\residential\schools\city_school.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (1187) in dz\structures\residential\schools\proxy\school_exterior_proxy.p3d:geometryFire
+22:50:28 Convex "component104" selection faces are less then 4 in dz\structures\specific\fuelstation\fuelstation_build.p3d:geometryView
+22:50:28 PerfWarning: Way too much components (526) in dz\structures\residential\houseblocks\houseblock_2f8.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (501) in dz\structures\wrecks\vehicles\wreck_volha_grey.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (820) in dz\structures\residential\houses\house_2w02.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (600) in dz\structures\residential\houseblocks\houseblock_2f1.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (526) in dz\structures\residential\houseblocks\houseblock_2f2.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (1025) in dz\structures\residential\houses\house_2w04.p3d:geometryFire
+22:50:28 Warning Message: No entry 'dz\data\data\Penetration\plexiPlate.bisurf.isLiquid'.
+22:50:28 Warning Message: '/' is not a value
+22:50:28 PerfWarning: Way too much components (510) in dz\structures\residential\houseblocks\houseblock_3f1.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (682) in dz\structures\residential\houseblocks\houseblock_2f3.p3d:geometryFire
+22:50:28 Convex "component361" selection faces are less then 4 in dz\structures\ruins\ruin_houseblock_corner_total.p3d:geometryFire
+22:50:28 Convex "component425" selection faces are less then 4 in dz\structures\ruins\ruin_houseblock_corner_total.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (552) in dz\structures\residential\houseblocks\houseblock_2f6.p3d:geometryFire
+22:50:28 Convex "component13" selection faces are less then 4 in dz\plants\tree\t_populusnigra_3s.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (532) in dz\structures\residential\houses\house_2b02.p3d:geometryFire
+22:50:28 PerfWarning: Way too much components (918) in dz\structures\residential\houses\house_2b04.p3d:geometryFire
+22:50:29 Convex "component274" selection faces are less then 4 in dz\structures\residential\offices\office_municipal1.p3d:geometryFire
+22:50:29 Convex "component275" selection faces are less then 4 in dz\structures\residential\offices\office_municipal1.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (804) in dz\structures\residential\offices\office_municipal1.p3d:geometryFire
+22:50:29 Type 'Land_Office_Municipal1' must be inherited from class 'Church'
+22:50:29 Type 'Land_Office_Municipal1' must be inherited from class 'Church'
+22:50:29 PerfWarning: Way too much components (710) in dz\structures\residential\houses\house_2b03.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (804) in dz\structures\residential\police\city_policestation.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (677) in dz\structures\residential\medical\city_hospital.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (566) in dz\structures\residential\stores\city_store_withstairs.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (1200) in dz\structures\residential\offices\office2.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (506) in dz\structures\residential\offices\proxy\a_office02_metalbars.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (850) in dz\structures\residential\houses\house_1w12.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (558) in dz\structures\industrial\misc\misc_scaffolding.p3d:geometryFire
+22:50:29 Convex "component20" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component100" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component101" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component102" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component103" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component129" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component130" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component131" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component132" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component148" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component149" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component150" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component151" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component152" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component153" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2sb.p3d:geometryFire
+22:50:29 Convex "component06" selection faces are less then 4 in dz\plants\tree\d_quercusrobur_stump.p3d:geometryFire
+22:50:29 Convex "component24" selection faces are less then 4 in dz\plants\tree\d_quercusrobur_stump.p3d:geometryFire
+22:50:29 Convex "component41" selection faces are less then 4 in dz\plants\tree\d_quercusrobur_stump.p3d:geometryFire
+22:50:29 Convex "component393" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component394" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component395" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component396" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component397" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component398" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component417" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component631" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component634" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component635" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component646" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component650" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component651" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component705" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component711" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 Convex "component718" selection faces are less then 4 in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (726) in dz\structures\industrial\cementworks\cementworks_milla.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (1869) in dz\structures\industrial\cementworks\proxy\cementworks_milla_metal.p3d:geometryFire
+22:50:29 Convex "component505" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component506" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component515" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component519" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component520" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component524" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component525" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component531" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component532" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component533" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component534" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component535" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component538" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component582" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component603" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component610" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component611" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component612" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component613" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component614" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component615" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component616" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component617" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component618" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component619" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component620" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component621" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component622" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component623" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component624" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component625" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component626" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component627" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component628" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component629" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component630" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component631" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component632" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component633" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 Convex "component693" selection faces are less then 4 in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (677) in dz\structures\industrial\cementworks\proxy\cementworks_milla_bricks.p3d:geometryFire
+22:50:29 PerfWarning: Way too much components (1027) in dz\structures\residential\offices\office1.p3d:geometryFire
+22:50:30 SW keep height animation used for dz\structures\residential\misc\misc_football_line.p3d
+22:50:30 PerfWarning: Way too much components (982) in dz\structures\industrial\houses\factory_small.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (628) in dz\structures\ruins\rubble_dirtpile_medium2.p3d:geometryFire
+22:50:30 Warning Message: No entry 'dz\data\data\Penetration\hay.bisurf.isLiquid'.
+22:50:30 Warning Message: '/' is not a value
+22:50:30 Convex "component116" selection faces are less then 4 in dz\structures\wrecks\trains\train_wagon_box.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (704) in dz\structures\military\improvised\mil_camonet_roof_east.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (626) in dz\structures\military\improvised\proxy\tent_big2.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (546) in dz\structures\military\houses\mil_guardhouse2.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (1020) in dz\structures\wrecks\vehicles\wreck_v3s.p3d:geometryFire
+22:50:30 Warning Message: No entry 'dz\data\Data\Penetration\armor_5mm_plate.bisurf.isLiquid'.
+22:50:30 Warning Message: '/' is not a value
+22:50:30 PerfWarning: Way too much components (709) in dz\structures\residential\firedep\city_firestation.p3d:geometryFire
+22:50:30 Warning Message: No entry 'dz\data\data\Penetration\armour.bisurf.isLiquid'.
+22:50:30 Warning Message: '/' is not a value
+22:50:30 PerfWarning: Way too much components (603) in dz\structures\rail\houses\rail_warehouse_small.p3d:geometryFire
+22:50:30 PerfWarning: Way too much components (859) in dz\structures\residential\medical\village_healthcare.p3d:geometryFire
+22:50:30 Convex "component123" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component124" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component125" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component126" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component127" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component128" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component146" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component147" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component148" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component149" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component150" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component151" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component152" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component153" selection faces are less then 4 in dz\plants\tree\t_fagussylvatica_2fb.p3d:geometryFire
+22:50:30 Convex "component38" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_3f.p3d:geometryFire
+22:50:30 Convex "component02" selection faces are less then 4 in dz\plants\tree\d_quercusrobur_fallenc.p3d:geometryFire
+22:50:30 Convex "component07" selection faces are less then 4 in dz\plants\tree\d_quercusrobur_fallenc.p3d:geometryFire
+22:50:31 PerfWarning: Way too much components (715) in dz\structures\industrial\houses\factory_lathes.p3d:geometryFire
+22:50:31 PerfWarning: Way too much components (633) in dz\structures\industrial\houses\proxy\housev2_03_int.p3d:geometryFire
+22:50:31 PerfWarning: Way too much components (660) in dz\structures\military\airfield\mil_airfield_hq.p3d:geometryFire
+22:50:31 Convex "component366" selection faces are less then 4 in dz\structures\industrial\construction\construction_house2.p3d:geometryFire
+22:50:31 PerfWarning: Way too much components (502) in dz\structures\industrial\construction\construction_house2.p3d:geometryFire
+22:50:31 Convex "component381" selection faces are less then 4 in dz\structures\wrecks\vehicles\wreck_bmp2.p3d:geometryFire
+22:50:31 PerfWarning: Way too much components (660) in dz\structures\ruins\rubble_dirtpile_small.p3d:geometryFire
+22:50:32 Convex "component50" selection faces are less then 4 in dz\structures\specific\churches\church1_yellow.p3d:geometryView
+22:50:32 Convex "component51" selection faces are less then 4 in dz\structures\specific\churches\church1_yellow.p3d:geometryView
+22:50:32 Convex "component52" selection faces are less then 4 in dz\structures\specific\churches\church1_yellow.p3d:geometryView
+22:50:32 Convex "component53" selection faces are less then 4 in dz\structures\specific\churches\church1_yellow.p3d:geometryView
+22:50:32 Convex "component281" selection faces are less then 4 in dz\structures\walls\wall_gate_camp.p3d:geometryFire
+22:50:32 Convex "component282" selection faces are less then 4 in dz\structures\walls\wall_gate_camp.p3d:geometryFire
+22:50:32 PerfWarning: Way too much components (561) in dz\structures\industrial\farms\barn_wood1.p3d:geometryFire
+22:50:32 PerfWarning: Way too much components (912) in dz\structures\military\tisy\tisy_hq.p3d:geometryFire
+22:50:33 Convex "component105" selection faces are less then 4 in dz\structures\ruins\ruin_houseblock_total.p3d:geometryFire
+22:50:33 Convex "component187" selection faces are less then 4 in dz\structures\ruins\ruin_houseblock_total.p3d:geometryFire
+22:50:33 Convex "component201" selection faces are less then 4 in dz\structures\ruins\ruin_houseblock_total.p3d:geometryFire
+22:50:33 Warning Message: unable to load doorMetalLargeOpen from CfgActionSounds
+22:50:33 Warning Message: unable to load doorMetalLargeClose from CfgActionSounds
+22:50:33 Convex "component127" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component128" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component129" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component130" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component131" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component138" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component139" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component140" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component141" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component152" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component153" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component154" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Convex "component155" selection faces are less then 4 in dz\plants\tree\t_quercusrobur_2fc.p3d:geometryFire
+22:50:33 Warning Message: No entry 'dz\data\data\Penetration\armor_30mm_plate.bisurf.isLiquid'.
+22:50:33 Warning Message: '/' is not a value
+22:50:33 PerfWarning: Way too much components (1212) in dz\structures\residential\offices\office_municipal2.p3d:geometryFire
+22:50:33 PerfWarning: Way too much components (1024) in dz\structures\residential\offices\proxy\municipaloffice2_details_proxy.p3d:geometryFire
+22:50:33 PerfWarning: Way too much components (707) in dz\structures\residential\offices\proxy\municipaloffice2_int.p3d:geometryFire
+22:50:33 Warning Message: unable to load doorMetalBigOpen from CfgActionSounds
+22:50:33 Warning Message: unable to load doorMetalBigClose from CfgActionSounds
+22:50:33 Warning Message: unable to load doorMetalFrontOpen from CfgActionSounds
+22:50:33 Warning Message: unable to load doorMetalFrontClose from CfgActionSounds
+22:50:33 PerfWarning: Way too much components (505) in dz\structures\military\improvised\hbarrier_6m.p3d:geometryView
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/modules\game\gamemodule.c,134": Missing ';' at the end of line
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\object\objectmenu.c,89": Missing ';' at the end of line
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\player\playermenu.c,518": Missing ';' at the end of line
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\game\gamemenu.c,77": Missing ';' at the end of line
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\game\gamemenu.c,85": Missing ';' at the end of line
+
+22:50:40 SCRIPT    (W): @"scripts/5_Mission/gui\inventorynew\inherited\playercontainer.c,754": Unsafe down-casting, use 'Container.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,76": Unsafe down-casting, use 'SliderWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,77": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,82": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,83": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,144": Unsafe down-casting, use 'CameraTool.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,475": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,478": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,481": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:40 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\camera\camerasettings.c,484": Unsafe down-casting, use 'TextWidget.Cast' for safe down-casting
+
+22:50:41 SCRIPT    (W): @"COT/Scripts/5_Mission/gui\object\objectmenu.c,128": Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+
+22:50:41 SCRIPT    (W): @"COT/Scripts/5_Mission/modules\object\objectmodule.c,34": Unsafe down-casting, use 'EntityAI.Cast' for safe down-casting
+
+22:50:41 SCRIPT    (W): @"COT/Scripts/5_Mission/modules\object\objectmodule.c,42": Unsafe down-casting, use 'ItemBase.Cast' for safe down-casting
+
+22:50:41 SCRIPT    (W): @"COT/Scripts/5_Mission/modules\object\objectmodule.c,88": Unsafe down-casting, use 'ItemBase.Cast' for safe down-casting
+
+22:50:41 SCRIPT    (E): @"$CurrentDir:mpmissions\DayZSurvival.chernarusplus\init.c,53": Bad type 'DayZSurvival'
+
+22:50:41 SCRIPT    (E): @"$CurrentDir:mpmissions\DayZSurvival.chernarusplus\init.c,53": Can't find class DayZSurvival
+
+22:50:41 SCRIPT    (E): Can't compile mission init script'!
+
+$CurrentDir:mpmissions\DayZSurvival.chernarusplus\init.c(53): Bad type 'DayZSurvival'
+
+22:50:58 [Disconnect]: Client 1079965914 normal disconnect
+22:51:09 [Disconnect]: No packets from 1079965914 in login queue
+22:51:09 [Disconnect]: DisconnectPlayerFinish 1079965914
+22:51:09 [Disconnect]: Remove player info 1079965914
+22:51:10 [Disconnect]: Remove player info 1079965914
+22:51:10 NetServer::RemovePlayerInfo(1079965914): DISCONNECT immediately after CREATE, both cancelled
+22:51:24 DDOS: Stats for 108.230.100.67:2304 flag 512:0 1024:0 1:2
+22:52:24 DDOS: Stats for 24.76.2.128:2304 flag 512:0 1024:0 1:2
+22:52:24 DDOS: Stats for 67.49.16.32:2304 flag 512:0 1024:0 1:1
+22:53:24 DDOS: Stats for 67.49.16.32:2304 flag 512:0 1024:0 1:2
+22:54:24 DDOS: Stats for 24.76.2.128:2304 flag 512:0 1024:0 1:1
